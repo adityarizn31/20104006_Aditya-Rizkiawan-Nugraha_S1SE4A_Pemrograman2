@@ -1,4 +1,4 @@
-package Percobaan;
+package Modul0.Percobaan;
 
 public class CobaUnicode {
     public static void main(String[] args) {
