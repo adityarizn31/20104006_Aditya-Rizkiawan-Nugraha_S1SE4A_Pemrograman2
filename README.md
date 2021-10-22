@@ -24,7 +24,9 @@ Castind dan Promotion yaitu salah satu proses perubahan jenis type data pada sua
 ### PRAKTIKUM
 Soal : <br>
 1. Menganalisa batasan maksimum dari suatu tipe <br> 
+
 [Codingan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul2/Latihan/AnalisaMaksimum.java) <br>
+
 Ketika dirun Build output menampilkan 
 <hr>" C:\Users\Asus\IdeaProjects\Praktikum_Pemrograman2\src\Modul2\Latihan\AnalisaMaksimum.java:5:18
 java: integer number too large "
@@ -32,7 +34,9 @@ java: integer number too large "
 Mengapa error itu bisa terjadi padahal daya tampung tipe data long adalah 2^63-1 ?
 Error tersebut terjadi karena java akan membaca syntax tersebut dengan tipe data integer bukan tipe data long. Jika kita ingin menggunakan tipe data long seperti syntax diatas maka kita harus menambah huruf(suffix) "L" dibelakang angka agar java dapat membaca tipe data yang kita maksud adalah tipe data long. <br> <br>
 2. Membuat cerita anak ayam menggunakan bahasa Java <br>
-[Codingan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul2/Latihan/Anak_Ayam.java) <br>
+
+[Codingan2](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul2/Latihan/Anak_Ayam.java) <br>
+
 Ketika dirun output yang tampil
 <hr>
 MASUKAN JUMLAH ANAK AYAM = 5 <br>
