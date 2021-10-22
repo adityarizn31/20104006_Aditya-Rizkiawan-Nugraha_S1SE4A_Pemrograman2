@@ -32,4 +32,19 @@ java: integer number too large "
 Mengapa error itu bisa terjadi padahal daya tampung tipe data long adalah 2^63-1 ?
 Error tersebut terjadi karena java akan membaca syntax tersebut dengan tipe data integer bukan tipe data long. Jika kita ingin menggunakan tipe data long seperti syntax diatas maka kita harus menambah huruf(suffix) "L" dibelakang angka agar java dapat membaca tipe data yang kita maksud adalah tipe data long. <br> <br>
 2. Membuat cerita anak ayam menggunakan bahasa Java <br>
+[Codingan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul2/Latihan/Anak_Ayam.java) <br>
+Ketika dirun output yang tampil
+<hr>
+MASUKAN JUMLAH ANAK AYAM = 5 <br>
+ANAK AYAM TURUN 5
+MATI SATU TINGGAL 4
+ANAK AYAM TURUN 4
+MATI SATU TINGGAL 3
+ANAK AYAM TURUN 3
+MATI SATU TINGGAL 2
+ANAK AYAM TURUN 2
+MATI SATU TINGGAL 1
+ANAK AYAM TURUN 1, MATI 1 TINGGAL INDUKNYA 
+<hr>
+Pada program ini menggunakan Scanner dengan variabel asupkeun / masukan lalu mendefinisikan dan deklarasi variabel ayam & anakayam yang dimana nantinya akan digunakan ketika user menginputkan. Jumlah di atas tergantung dengan scanner anakayam oleh user. Selanjutnya terdapat proses perulangan ayam = anakayam; jika ayam > 1 maka ayam akan dikurangi lalu ditampilkan "Anak Ayam turun "+ anakayam; (sesuai inputan user ) dilanjut dengan pengurangan - 1.
 
