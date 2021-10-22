@@ -24,4 +24,5 @@ Castind dan Promotion yaitu salah satu proses perubahan jenis type data pada sua
 ### PRAKTIKUM
 Soal : <br>
 1. Menganalisa batasan maksimum dari suatu tipe 
+https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/tree/modul2/Latihan
 
