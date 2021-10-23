@@ -25,7 +25,7 @@ Castind dan Promotion yaitu salah satu proses perubahan jenis type data pada sua
 Soal : <br>
 1. Menganalisa batasan maksimum dari suatu tipe <br> 
 
-[Codingan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul2/Latihan/AnalisaMaksimum.java) <br>
+[Codingan1](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul2/Latihan/AnalisaMaksimum.java) <br>
 
 Ketika dirun Build output menampilkan 
 <hr>" C:\Users\Asus\IdeaProjects\Praktikum_Pemrograman2\src\Modul2\Latihan\AnalisaMaksimum.java:5:18
