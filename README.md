@@ -50,5 +50,15 @@ ANAK AYAM TURUN 2
 MATI SATU TINGGAL 1
 ANAK AYAM TURUN 1, MATI 1 TINGGAL INDUKNYA 
 <hr>
-Pada program ini menggunakan Scanner dengan variabel asupkeun / masukan lalu mendefinisikan dan deklarasi variabel ayam & anakayam yang dimana nantinya akan digunakan ketika user menginputkan. Jumlah di atas tergantung dengan scanner anakayam oleh user. Selanjutnya terdapat proses perulangan ayam = anakayam; jika ayam > 1 maka ayam akan dikurangi lalu ditampilkan "Anak Ayam turun "+ anakayam; (sesuai inputan user ) dilanjut dengan pengurangan - 1.
+Pada program ini menggunakan Scanner dengan variabel asupkeun / masukan lalu mendefinisikan dan deklarasi variabel ayam & anakayam yang dimana nantinya akan digunakan ketika user menginputkan. Jumlah di atas tergantung dengan scanner anakayam oleh user. Selanjutnya terdapat proses perulangan ayam = anakayam; jika ayam > 1 maka ayam akan dikurangi lalu ditampilkan "Anak Ayam turun "+ anakayam; (sesuai inputan user ) dilanjut dengan pengurangan - 1. <br> <br>
+3. A + B - C <br>
+
+[Codingan3](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul2/Latihan/ABC.java) <br>
+
+Pada kodingan yang ini menggunakan scanner asupkeun/masukan sebagai variabel dan digunakan oleh user. Lalu mendeklrasikan int t dan int[] a, b, c; dan di dalamnya menggunakan array untuk data selanjutnya ada perulangan yang ditentukan oleh user pada inputan. 
+
+<hr>
+
+### KESIMPULAN
+Pada praktikum ini mempelajari mengenai type data yang cocok digunakan sesuai dengan isi data lalu ada penggunaan perulangan yang digunakan pada soal ke-2 dan yang ke-3 menggunakan operasi aritmetika yang sesuai dengan persoalan. Sebagai programmer harus tahu dan paham type data yang akan digunakan, algoritma yang dipakai dan solusi yang bisa menyelesaikan persoalan. 
 
