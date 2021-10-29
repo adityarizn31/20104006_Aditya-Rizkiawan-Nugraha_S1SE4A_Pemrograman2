@@ -30,18 +30,22 @@ Soal : <br>
 <hr>
 
 <br>
-2. Percobaan 2 || Melakukan enkapsulasi pada suatu class <br> 
+2. Percobaan 2 || Melakukan enkapsulasi pada suatu class  
 
 [main](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Percobaan/main.java) <br>
 
 Hasil run menampilkan :  
 <hr>
 
-Alamat saya di jalan Lapang Sari, Majalengka <br>
+Nama 			      : Barca <br>
+No Rekening 	 : 50410420 <br>
+Saldo 			     : 1000000 <br>
+Pin           :  4669 <br>
 
 <hr>
 
-Pada kodingan main ini 
+Pada kodingan main ini yang dibuat terlebih dahulu yaitu membuat objek dengan variabel "aditya" dengan berparameter String nama, int noRekening, int saldo dan int pin. Selanjutnya sout memanggil urutan parameter dengan menggunakan get, get pada kodingan ini digunakan untuk mengembalikan nilai sesuai dengan tipe data yang akan diambil dan sudah dipanggil. Sebelumnya sudah di isikan melalui objek yang memiliki parameter. 
+
 <br>
 3. Percobaan 3 || Melakukan Overloading Constructor 
 
@@ -50,13 +54,13 @@ Pada kodingan main ini
 Hasil run menampilkan : 
 <hr>
  
-SALDO AWAL TABUNGAN ANDA = 5000 <br>
-JUMLAH UANG YANG DIAMBIL = 1500 <br>
-SALDO TABUNGAN ANDA YANG SEKARANG ADALAH = 3500 <br>
+Saldo awal Rizkiawan 	 : 10000 <br>
+Saldo awal Nugraha 		 : 15000 <br>
+Nomor pin Rizkiawan 	 : 11111 <br>
+Nomor pin Nugraha 		 : 9898 <br>
  
 <hr>
-Pada kodingan kedua ini class tabungan dibuat terlebih dahulu dengan memiliki atribut int saldo selanjutnya terdapat method void ambilUang dengan paramater(int saldo) selanjutnya pada kodingan main class tabungan membuat objek dengan variabel t yang dimana memliki isi 5000 
-selanjutnya ditampilkan terlebih dahulu jumlah uang awal yaitu 5000 lalu variabel t memanggil method ambilUang pada class Tabungan, uang yang diambil sebesar 1500 dan terakhir ditampilkan lagi hasil dari uang yang telah dikurangi yaitu 3500.
+Pada kodingan ketiga terdapat dua objek dengan variabel yang berbeda dan memiliki parameter beda. Yang pertama ada objek dengan variabel "rizkiawan" dengan memiliki parameter String nama dan int noRekening sedangkan yang kedua memiliki variabel "nugraha" dengan parameter String nama, int noRekening, int saldo dan int pin. 
 <br>
 <br>
 <hr>
