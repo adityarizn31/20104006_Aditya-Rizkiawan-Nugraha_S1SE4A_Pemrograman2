@@ -20,10 +20,19 @@ Overloading merupakan penulisan beberapa fungsi (dua atau lebih) yang memiliki n
 ### PRAKTIKUM PERCOBAAN
 <hr>
 Soal : <br>
-1. Percobaan 1 || Melakukan enkapsulasi pada suatu class <br> 
+1. Percobaan 1 || Constructor Berparameter 
 
-[Codingan1]() <br>
-[Main1]()
+[Constructor](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Percobaan/Tabungan.java) <br>
+
+
+
+
+<hr>
+
+<br>
+2. Percobaan 2 || Melakukan enkapsulasi pada suatu class <br> 
+
+[main](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Percobaan/main.java) <br>
 
 Hasil run menampilkan :  
 <hr>
@@ -32,13 +41,11 @@ Alamat saya di jalan Lapang Sari, Majalengka <br>
 
 <hr>
 
-Pada kodingan yang pertama ini class Rumah membuat objek dengan variabel r selanjutnya r memanggil method setAlamat rumah yang dimana memiliki parameter(String x) dan alamat_rumah = x. Statement pertama pada class main setelah membuat objek digunakan untuk mengisikan "Alamat saya di jalan Lapangsari" dan dipanggi lagi di bagian sout.
-
+Pada kodingan main ini 
 <br>
-2. Percobaan 2 || Melakukan Overloading Constructor 
+3. Percobaan 3 || Melakukan Overloading Constructor 
 
-[Codingan2]() <br>
-[Main2]()
+[mainTabungan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Percobaan/mainTabungan.java) <br>
 
 Hasil run menampilkan : 
 <hr>
