@@ -7,7 +7,7 @@
 ### Daftar isi : 
 1. [Modul 2 : Dasar Pemrograman Java](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/tree/modul0)
 2. [Modul 3 : Deklarasi Class, Atribut & Objek](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/tree/modul3)
-3. [Modul 4 : ]()
+3. [Modul 4 : ]Information Hiding, Enkapsulasi, Overload, Constructor(https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/tree/modul4)
 4. [Modul 5 : ]()
 5. [Modul 6 : ]()
 6. [Modul 7 : ]()
