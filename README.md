@@ -67,7 +67,7 @@ Pada kodingan ketiga terdapat dua objek dengan variabel yang berbeda dan memilik
 
 ### PRAKTIKUM LATIHAN
 <hr>
-3. Membuat dua class bernama StudentRecord dan MainStudentRecord || Menganalisa dan tentukan konsep apa saja yang digunakan pada (Modul 4) dan alasan mengapa hasil nya seperti itu !!!
+4. Membuat dua class bernama StudentRecord dan MainStudentRecord || Menganalisa dan tentukan konsep apa saja yang digunakan pada (Modul 4) dan alasan mengapa hasil nya seperti itu !!!
 
 [StudentRecord](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Latihan/StudentRecord.java) <br>
 [MainStudentRecord](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Latihan/mainStudentRecord.java)
