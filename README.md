@@ -119,10 +119,61 @@ Dalam program di atas terdapat ada dua constructor yang mengembalikan tipe kelas
     }
 
 <br>
-* Penjelasan Hasil Run 
-Hasil setelah diRun yaitu "Hitung = 0"
+
+* Penjelasan Hasil Run <br>
+Hasil setelah diRun yaitu "Hitung = 0" Kenapa ?? <br>
+Karena pada program main tidak adanya kode untuk menginputkan sebuah nilai dan pada class StudentRecord tidak ada method untuk menginputkan beberapa nilai <br>
+
+Jika ditambahkan seperti ini pada bagian main : <br> 
+        nilai.setMathGrade(90.33); <br>
+        nilai.setEnglishGrade(89.5); <br>
+        nilai.setScienceGrade(90.1); <br>
+        
+Dan ditambahkan kodingan dibawah ini pada bagian StudentRecord : <br>
+
+    public void setMathGrade(Double temp) { // Digunakan untuk mengisi nilai kepada variabel di main
+        MathGrade = temp;
+    }
+    
+    public void setEnglishGrade(double nilaieng) { // Digunakan untuk mengisi nilai kepada variabel di main
+        EnglishGrade = nilaieng;
+    }
+    
+    public void setScienceGrade(double nilaisci) { // Digunakan untuk mengisi nilai kepada variabel di main
+        ScienceGrade = nilaisci;
+    }
+    
+    
+<hr>
+
+<========== HASIL RUN ==========> <br>
+Nama peserta ujian = Aditya <br>
+Rata - rat nilai hasil ujian = 89.97666666666665 <br>
+
+[Hasil Running1](https://user-images.githubusercontent.com/92510019/139537416-d11c4660-35b7-44a5-802a-3df308dfaa43.png) <br>
+
+<hr>
+
+Ataupun dengan cara : <br> 
+
+    public void setStudentCount(int nilai1, int nilai2, int nilai3) { // Digunakan untuk mengisi nilai kepada variabel di main
+        studentCount = nilai1 + nilai2 + nilai3;
+    }
+    
+<hr>
+
+<========== HASIL RUN ==========> <br> 
+Nama peserta ujian = Aditya <br>
+Hitung = 69 <br>
+
+[Hasil Running2](https://user-images.githubusercontent.com/92510019/139537755-eb3d4abd-6a1e-403c-bd7c-05d0521a9300.png) <br>
+
+<hr>
+
+    
+        
 
 
 
 ### KESIMPULAN
-Kesimpulan pada praktikum kedua ini mahasiswa harus jeli dengan method yang dibuat, variabel yang digunakna dan alur / algoritma program yang berjalan.Selain itu harus paham juga dan mengerti detai - detail dari alur pemrograman. Di dalam PBO kode dan data diatur menggunakan method sehingga dapat bekerja untuk menghasilkan program yang digunakan menyelesaikan masalah selain itu memodelkan sistem menjadi suatu objek yang dimana menjadi solusi dalam penyelesaian. 
+Kesimpulan pada praktikum ketiga modul 4 ini mahasiswa harus mengerti terlebih dahulu apa itu class, objek, variabel, method, constructor dan overload. Karena pada modul ini menggunakan semua konsep yang di atas. Selain itu harus memahami alur pemrograman dari set, get dan paham bagian mana yang harus di isi oleh user serta method yang void dan non-void.
