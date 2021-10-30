@@ -67,27 +67,26 @@ Pada kodingan ketiga terdapat dua objek dengan variabel yang berbeda dan memilik
 
 ### PRAKTIKUM LATIHAN
 <hr>
-3. Mengimplementasikan UML Class Diagram untuk class tabungan || Transformasikan class ke dalam Program
+3. Membuat dua class bernama StudentRecord dan MainStudentRecord || Menganalisa dan tentukan konsep apa saja yang digunakan pada (Modul 4) dan alasan mengapa hasil nya seperti itu !!!
 
-[Codingan3](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Latihan/Tabungan.java)<br>
-[Main3](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Latihan/TestTabungann.java)
+[StudentRecord]()<br>
+[MainStudentRecord]()
 
 Hasil run menampilkan : 
 <hr>
 
-SALDO AWAL : 10000 <br>
-JUMLAH UANG YANG DISIMPAN : 8000 <br>
-JUMLAH UANG YANG DIAMBIL : 7000 OK <br>
-JUMLAH UANG YANG DISIMPAN : 1000 <br>
-JUMLAH UANG YANG DIAMBIL :  10000 OK <br>
-JUMLAH UANG YANG DIAMBIL : 2500 GAGAL <br>
-JUMLAH UANG YANG DISIMPAN : 2000 <br>
-SALDO SEKARANG = 4000 <br>
 
 <hr>
 
-Pada kodingan ketiga merupakan tugas yang harus dibuat agar bisa di running, di dalamnya terdapat atribut int saldo lalu terdapat method getSaldo digunakan untuk kembalian sesuai dengan tipe data yang akan diambil sedangkan set digunakan untuk mengisi data ke dalam atribut. 
-Lalu terdapat method simpanUang(int jumlah) digunakan untuk menjumlahkan saldo.Selanjutnya di dalam kodingan main terdapat Class Tabungan yang memiliki objek tabungan. dilanjutkan dengan menampilkan saldo awal yang dipanggil melalui method getSaldo lalu terdapat memanggil method simpangUang dan ambilUang. Ada juga percabangan dengan ekspresi boolean jika benar maka akan menampilkan OK namun jika salah maka Gagal. Di dalam method simpanUang dilakukan proses = saldo + jumlah; dan di ambilUang dilakukan proses jika jumlah lebih kecil dari this.getsaldo maka setSaldo akan mengisi getSaldo - jumlah. 
+Pada modul 4 ini konsep yang digunakan : 
+<br> (1.) Konsep Instansiasi Objek <br>
+Merupakan membuat objek dari tipe kelas yang sudah didefinisikan. Di dalam instansiasi ini terdapat dua tahap :
+<br> - Mendeklarasikan variabel sebagai referensi ke objek dari kelas bersangkutan
+<br> - Menginstansiasi menggunakan operator 'new' memasukan ke dalam variabel
+<br> contoh : Aditya sukses = new Aditya(); <br>
+<br> (2.) Konsep Constructor Berparameter <br>
+Merupakan method khusus yang didefinisikan dalam kelas dan akan dpanggil secara otomatis tiap kali terjadi instansiasi objek. Berfungsi melakukan inisialisasi nilai terhadap data - data yang terdapat pada kelas yang bersangkutan. Di dalam kelas Tabungan terdapat dua constructor yang memiliki parameter yang berbeda. 
+
 
 ### KESIMPULAN
 Kesimpulan pada praktikum kedua ini mahasiswa harus jeli dengan method yang dibuat, variabel yang digunakna dan alur / algoritma program yang berjalan.Selain itu harus paham juga dan mengerti detai - detail dari alur pemrograman. Di dalam PBO kode dan data diatur menggunakan method sehingga dapat bekerja untuk menghasilkan program yang digunakan menyelesaikan masalah selain itu memodelkan sistem menjadi suatu objek yang dimana menjadi solusi dalam penyelesaian. 
