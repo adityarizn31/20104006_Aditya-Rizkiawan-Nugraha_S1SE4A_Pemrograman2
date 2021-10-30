@@ -72,9 +72,11 @@ Pada kodingan ketiga terdapat dua objek dengan variabel yang berbeda dan memilik
 [StudentRecord](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Latihan/StudentRecord.java) <br>
 [MainStudentRecord](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul4/Latihan/mainStudentRecord.java)
 
-Hasil run menampilkan : 
+Hasil run ketika belum diubah menampilkan  : 
 <hr>
 
+Nama : Aditya <br>
+Hitung = 0
 
 <hr>
 
