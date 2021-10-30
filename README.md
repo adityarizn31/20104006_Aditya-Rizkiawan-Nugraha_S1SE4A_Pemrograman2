@@ -84,8 +84,20 @@ Merupakan membuat objek dari tipe kelas yang sudah didefinisikan. Di dalam insta
 <br> - Mendeklarasikan variabel sebagai referensi ke objek dari kelas bersangkutan
 <br> - Menginstansiasi menggunakan operator 'new' memasukan ke dalam variabel
 <br> contoh : Aditya sukses = new Aditya(); <br>
+
 <br> (2.) Konsep Constructor Berparameter <br>
-Merupakan method khusus yang didefinisikan dalam kelas dan akan dpanggil secara otomatis tiap kali terjadi instansiasi objek. Berfungsi melakukan inisialisasi nilai terhadap data - data yang terdapat pada kelas yang bersangkutan. Di dalam kelas Tabungan terdapat dua constructor yang memiliki parameter yang berbeda. 
+Merupakan method khusus yang didefinisikan dalam kelas dan akan dpanggil secara otomatis tiap kali terjadi instansiasi objek. Berfungsi melakukan inisialisasi nilai terhadap data - data yang terdapat pada kelas yang bersangkutan. Di dalam kelas Tabungan terdapat dua constructor yang memiliki parameter yang berbeda. <br>
+
+<br> (3.) Konsep Method dan Method Berparameter <br>
+Dalam sebuah program method dapat bisa memiliki satu bahkan lebih yang dapat bersifat dinamis dan general yang bisa mengembalikna nilai atau tidak. Selain itu tiap method memilki tugas masing masing dan lebih spesifik. <br>
+
+<br> (4.) Konsep Overload Constructor <br>
+Dalam program di atas terdapat ada dua constructor yang mengembalikan tipe kelas (dirinya sendiir) selain itu memiliki parameter. 
+
+<br>
+* Penjelasan Hasil Run 
+Hasil setelah diRun yaitu "Hitung = 0"
+
 
 
 ### KESIMPULAN
