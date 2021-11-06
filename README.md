@@ -20,7 +20,7 @@ This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam
 Soal : <br>
 1. Memakai kata kunci this pada overloading constructor <br> 
 
-<br>Kodingan Mahasiswa
+<br>[Kodingan Mahasiswa](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Percobaan/Mahasiswa.java)
 <hr>
 
  ```java
@@ -55,7 +55,7 @@ public class Mahasiswa {
 <br>
 2. Menggunakan Package dan Import
 
-<br>Kodingan Kelas
+<br>[Kodingan Kelas](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Percobaan/Sekolah/Kelas.java)
 <hr>
 
 ```java
@@ -80,7 +80,7 @@ public class Kelas {
 ```
 <br> **Penjelasan** : Di dalam class kelas terdapat dua variabel yaitu int kodekelas, String namakelas dan objek dari kelas Mahasiswa mahasiswa. Selanjutnya ada constructor dan method yaitu kelas dengan parameter int kode dan String nama dan method void set mahasiswa yang berfungsi mengisikan kepada variabel mhs.
 
-<br>Kodingan Mahasiswa
+<br>[Kodingan Mahasiswa](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Percobaan/Sekolah/Mahasiswa.java)
 
 <hr>
 
