@@ -18,36 +18,89 @@ This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam
 ### PRAKTIKUM PERCOBAAN
 <hr>
 Soal : <br>
-1. Memakai kata kunci __this__ pada overloading constructor <br> 
+1. Memakai kata kunci this pada overloading constructor <br> 
 
-[Codingan1](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/Rumah.java) <br>
-[Main1](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/Test.java)
-
-Hasil run menampilkan :  
+<br>Kodingan Mahasiswa
 <hr>
 
-Alamat saya di jalan Lapang Sari, Majalengka <br>
+ ```java
+ package Modul5.Percobaan;
+
+public class Mahasiswa {
+    private int nrp;
+    private String nama;
+
+
+    public Mahasiswa() {
+        this(0,"");
+    }
+
+    public Mahasiswa(String nama) {
+        this(0, nama);
+    }
+
+    public Mahasiswa(int nrp, String nama){
+        this.nrp = nrp;
+        this.nama = nama;
+
+
+    }
+}
+```
+<br> **Penjelasan** : Pada class mahasiswa terdapat dua variabel dengan tipe data yang berbeda. Ada private int nrp dan private String nama. Selanjutya dibuat 3 constructor yang tidak menggunakan parameter dan menggunakan parameter namun berbeda yaitu Mahasiswa dengan di dalamnya terdapat this(0,"") lalu ada Mahasiswa (String nama) dan Mahasiswa (int nrp, String nama) yang terdapat this.nrp dan this.nama
 
 <hr>
 
-Pada kodingan yang pertama ini class Rumah membuat objek dengan variabel r selanjutnya r memanggil method setAlamat rumah yang dimana memiliki parameter(String x) dan alamat_rumah = x. Statement pertama pada class main setelah membuat objek digunakan untuk mengisikan "Alamat saya di jalan Lapangsari" dan dipanggi lagi di bagian sout.
 
 <br>
-2. Mengimplementasikan UML Class diagram untuk class tabungan
+2. Menggunakan Package dan Import
 
-[Codingan2](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/Tabungan.java) <br>
-[Main2](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/TestTabungan.java)
+<br>Kodingan Kelas
+<hr>
 
-Hasil run menampilkan : 
+```java
+package Modul5.Percobaan.Sekolah;
+
+import Modul5.Percobaan.Mahasiswa;
+
+public class Kelas {
+    private int kodekelas;
+    private String namakelas;
+    private Mahasiswa mahasiswa;
+
+    public Kelas (int kode, String nama){
+        this.kodekelas = kode;
+        this.namakelas = nama;
+    }
+
+    public void SetMhs(Mahasiswa mhs){
+        this.mahasiswa = mhs;
+    }
+}
+```
+<br> **Penjelasan** : Di dalam class kelas terdapat dua variabel yaitu int kodekelas, String namakelas dan objek dari kelas Mahasiswa mahasiswa. Selanjutnya ada constructor dan method yaitu kelas dengan parameter int kode dan String nama dan method void set mahasiswa yang berfungsi mengisikan kepada variabel mhs.
+
+<br>Kodingan Mahasiswa
+
 <hr>
- 
-SALDO AWAL TABUNGAN ANDA = 5000 <br>
-JUMLAH UANG YANG DIAMBIL = 1500 <br>
-SALDO TABUNGAN ANDA YANG SEKARANG ADALAH = 3500 <br>
- 
+
+```java
+package Modul5.Percobaan.Sekolah;
+
+public class Mahasiswa {
+    private int nrp;
+    private String nama;
+
+    public Mahasiswa(int nrp, String nama) {
+        this.nrp = nrp;
+        this.nama = nama;
+    }
+}
+```
+<br> **Penjelasan** : Di dalam kelas Mahasiswa ini ada dua varibale yang itu int nrp dan String nama dan ada juga contructor dengan parameter yang sama seperti variabel yang di dalamnya terdapat this.nrp dan this.nama.
+
 <hr>
-Pada kodingan kedua ini class tabungan dibuat terlebih dahulu dengan memiliki atribut int saldo selanjutnya terdapat method void ambilUang dengan paramater(int saldo) selanjutnya pada kodingan main class tabungan membuat objek dengan variabel t yang dimana memliki isi 5000 
-selanjutnya ditampilkan terlebih dahulu jumlah uang awal yaitu 5000 lalu variabel t memanggil method ambilUang pada class Tabungan, uang yang diambil sebesar 1500 dan terakhir ditampilkan lagi hasil dari uang yang telah dikurangi yaitu 3500.
+
 <br>
 <br>
 <hr>
