@@ -6,10 +6,9 @@ Mata kuliah Pemrograman2
 Sarana/ cara pengelompokan dan pengorganisasian kelas - kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library. Package juga memiliki hak akses seperti pengaruh terhadap method main(). Suatu cara memanage atau mengemlompokan class - class yang dibuat berdasarkan kesamaan atau kemiripan fungsi.
 
 * Import Class <br>
-Merupakan kata kunci untuk melibatkan class class lain yang terhimpun di dalam package yang akan di import. 
-
+Merupakan kata kunci untuk melibatkan class class lain yang terhimpun di dalam package yang akan di import. This hanya bisa digunakan dalam class tidak di dalam main, Jika dilakukan di dalam main maka akan terjadi error. 
 * This <br>
-This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam method untuk mewakili nama kelas bersangkutan.
+This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam method untuk mewakili nama kelas bersangkutan. 
 
 
 
@@ -107,27 +106,143 @@ public class Mahasiswa {
 
 ### PRAKTIKUM LATIHAN
 <hr>
-3. Mengimplementasikan UML Class Diagram untuk class tabungan || Transformasikan class ke dalam Program
+3. Mengimplementasikan UML Class Diagram dalam program untuk package Perbankan
 
-[Codingan3](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Latihan/Tabungan.java)<br>
-[Main3](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Latihan/TestTabungann.java)
+<br> Transformasikan class diagram di atas ke dalam bentuk program !! Tulislah listing program tersebut sebagai pengetesan
+
+[Kodingan Mahasiswa]()<br>
+
+```java
+package Modul5.Latihan.Perbankan;
+
+public class Nasabah {
+
+    String namaAwal;
+    String namaAkhir;
+    Tabungan tabungan;
+
+    public Nasabah(String namaAwal, String namaAkhir){
+        this.namaAwal = namaAwal;
+        this.namaAkhir = namaAkhir;
+    }
+
+    public String getNamaAwal() {
+        return namaAwal;
+    }
+
+    public String getNamaAkhir() {
+        return namaAkhir;
+    }
+
+    public void setTabungan(Tabungan tabungan) {
+        this.tabungan = tabungan;
+    }
+
+    public Tabungan getTabungan() {
+        return tabungan;
+    }
+}
+```
+
+<br>[Kodingan Tabungan]()
+
+```java
+package Modul5.Latihan.Perbankan;
+
+public class Tabungan {
+    int saldo;
+
+    public Tabungan (int saldo){
+        this.saldo = saldo;
+    }
+
+    public int getSaldo (){
+        return saldo;
+    }
+
+    public void setSaldo(int saldo) {
+        this.saldo = saldo;
+    }
+
+    public void simpanUang(int jumlah){
+        this.saldo = saldo + jumlah;
+    }
+
+    public boolean ambilUang(int jumlah){
+        if (jumlah < this.getSaldo()) {
+            this.setSaldo(getSaldo()-jumlah);
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+```
+
+<br> [Kodingan TesLatihan]()
+
+```java
+package Modul5.Latihan;
+
+import Modul5.Latihan.Perbankan.Nasabah;
+import Modul5.Latihan.Perbankan.Tabungan;
+
+
+public class TesLatihan {
+        public static void main(String[] args) {
+            int tmp;
+
+            boolean status = true;
+
+            Nasabah nasabah=new Nasabah("Agus","Daryanto");
+            System.out.println("Nasabah atas nama : " +
+                    nasabah.getNamaAwal() + " " + nasabah.getNamaAkhir());
+            nasabah.setTabungan(new Tabungan(5000));
+            tmp=nasabah.getTabungan().getSaldo();
+            System.out.println("Saldo awal : " + tmp);
+            nasabah.getTabungan().simpanUang(3000);
+            System.out.println("Jumlah uang yang disimpan : 3000");
+            status=nasabah.getTabungan().ambilUang(6000);
+            System.out.print("Jumlah uang yang diambil : 6000");
+            if (status) System.out.println(" ok");
+            else
+                System.out.println(" gagal");
+            nasabah.getTabungan().simpanUang(3500);
+            System.out.println("Jumlah uang yang disimpan : 3500");
+            status=nasabah.getTabungan().ambilUang(4000);
+            System.out.print("Jumlah uang yang diambil : 4000");
+            if (status) System.out.println(" ok");
+            else
+                System.out.println(" gagal");
+            status=nasabah.getTabungan().ambilUang(1600);
+            System.out.print("Jumlah uang yang diambil : 1600");
+            if (status) System.out.println(" ok");
+            else
+                System.out.println(" gagal");
+            nasabah.getTabungan().simpanUang(2000);
+            System.out.println("Jumlah uang yang disimpan : 2000");
+            tmp=nasabah.getTabungan().getSaldo();
+            System.out.println("Saldo sekarang = " + tmp);
+    }
+}
+```
 
 Hasil run menampilkan : 
 <hr>
 
-SALDO AWAL : 10000 <br>
-JUMLAH UANG YANG DISIMPAN : 8000 <br>
-JUMLAH UANG YANG DIAMBIL : 7000 OK <br>
-JUMLAH UANG YANG DISIMPAN : 1000 <br>
-JUMLAH UANG YANG DIAMBIL :  10000 OK <br>
-JUMLAH UANG YANG DIAMBIL : 2500 GAGAL <br>
-JUMLAH UANG YANG DISIMPAN : 2000 <br>
-SALDO SEKARANG = 4000 <br>
+Nasabah atas nama : Agus Daryanto <br>
+Saldo awal : 5000 <br>
+Jumlah uang yang disimpan : 3000 <br>
+Jumlah uang yang diambil : 6000 ok <br>
+Jumlah uang yang disimpan : 3500 <br>
+Jumlah uang yang diambil : 4000 ok <br>
+Jumlah uang yang diambil : 1600 gagal <br>
+Jumlah uang yang disimpan : 2000 <br>
+Saldo sekarang = 3500 <br>
 
 <hr>
 
-Pada kodingan ketiga merupakan tugas yang harus dibuat agar bisa di running, di dalamnya terdapat atribut int saldo lalu terdapat method getSaldo digunakan untuk kembalian sesuai dengan tipe data yang akan diambil sedangkan set digunakan untuk mengisi data ke dalam atribut. 
-Lalu terdapat method simpanUang(int jumlah) digunakan untuk menjumlahkan saldo.Selanjutnya di dalam kodingan main terdapat Class Tabungan yang memiliki objek tabungan. dilanjutkan dengan menampilkan saldo awal yang dipanggil melalui method getSaldo lalu terdapat memanggil method simpangUang dan ambilUang. Ada juga percabangan dengan ekspresi boolean jika benar maka akan menampilkan OK namun jika salah maka Gagal. Di dalam method simpanUang dilakukan proses = saldo + jumlah; dan di ambilUang dilakukan proses jika jumlah lebih kecil dari this.getsaldo maka setSaldo akan mengisi getSaldo - jumlah. 
+
 
 ### KESIMPULAN
-Kesimpulan pada praktikum kedua ini mahasiswa harus jeli dengan method yang dibuat, variabel yang digunakna dan alur / algoritma program yang berjalan.Selain itu harus paham juga dan mengerti detai - detail dari alur pemrograman. Di dalam PBO kode dan data diatur menggunakan method sehingga dapat bekerja untuk menghasilkan program yang digunakan menyelesaikan masalah selain itu memodelkan sistem menjadi suatu objek yang dimana menjadi solusi dalam penyelesaian. 
+Kesimpulan pada praktikum mengenai Package, Kata kunci this dan import class ini mahasiswa harus mengetahui terlebih dahulu
