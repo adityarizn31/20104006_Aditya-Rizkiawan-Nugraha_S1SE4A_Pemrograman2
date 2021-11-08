@@ -264,4 +264,4 @@ Saldo sekarang = 3500 <br>
 
 
 ### KESIMPULAN
-Kesimpulan pada praktikum mengenai Package, Kata kunci this dan import class ini mahasiswa harus mengetahui terlebih dahulu bagaimana penggunaan dan pemanggilannya. Selain itu harus mengerti alur pemrograman dari saldo yang dimana harus ditambah atau dikurangi antara saldo dan jumlah. Harus paham juga penggunaan kata kunci this dan import class dan tempat penyimpanan di dalam package - package. 
+Kesimpulan pada praktikum mengenai Package, Kata kunci this dan import class ini mahasiswa harus mengetahui terlebih dahulu bagaimana penggunaan dan pemanggilannya. Selain itu harus mengerti alur pemrograman dari saldo yang dimana harus ditambah atau dikurangi antara saldo dan jumlah. Harus paham juga penggunaan kata kunci this yang hanya digunakan diluar class main dan import class dan tempat penyimpanan di dalam package - package. 
