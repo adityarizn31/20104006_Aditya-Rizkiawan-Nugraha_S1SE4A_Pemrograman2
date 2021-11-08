@@ -6,10 +6,10 @@ Mata kuliah Pemrograman2
 Sarana/ cara pengelompokan dan pengorganisasian kelas - kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library. Package juga memiliki hak akses seperti pengaruh terhadap method main(). Suatu cara memanage atau mengemlompokan class - class yang dibuat berdasarkan kesamaan atau kemiripan fungsi.
 
 * Import Class <br>
-Merupakan kata kunci untuk melibatkan class class lain yang terhimpun di dalam package yang akan di import. This hanya bisa digunakan dalam class tidak di dalam main, Jika dilakukan di dalam main maka akan terjadi error. 
+Merupakan kata kunci untuk melibatkan class class lain yang terhimpun di dalam package yang akan di import.  
 
 * This <br>
-This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam method untuk mewakili nama kelas bersangkutan. 
+This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam method untuk mewakili nama kelas bersangkutan. This hanya bisa digunakan dalam class tidak di dalam main, Jika dilakukan di dalam main maka akan terjadi error.
 <br> Contoh nya : <br>
 
 ```java
