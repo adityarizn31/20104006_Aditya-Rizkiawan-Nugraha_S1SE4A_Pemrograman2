@@ -13,7 +13,7 @@ This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam
 <br> Contoh nya : <br>
 
 ```java
-Karyawan(String kode, String nama, Double gaji) {
+public Karyawan(String kode, String nama, Double gaji) {
 this.id = kode;
 this.nama = nama;
 this.gaji = gaji;
