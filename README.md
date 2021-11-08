@@ -243,6 +243,14 @@ public class TesLatihan {
 ```
 
 **Penjelasan** : Pada program main ini semua method dipanggil agar bisa dilakukan running lalu dibuatkan objek nasabah dengan nama Nasabah setelah itu menampilkan nama nasabah menggunakan method Get dilanjutkan dengan mengisi variabel saldo sebesar 5000 di dalam variabel tmp selanjutnya menyimpan saldo sebesar 3000 dan ditampilkan lalu mengambil uang sebesar 6000. Setelah itu terdapat percabangan yang dimana jika status benar maka akan menampilkan OK namun jika salah akan menampilkan GAGAL. 
+<br> Jadi prosesnya yaitu :
+<br> Saldo pertama yaitu 5000
+<br> Lalu Agus menyimpan 3000 akhirnya saldo menjadi 8000
+<br> Selanjutnya Ia mengambil 6000 dan sisanya 2000 status = OK
+<br> Setelah itu Ia menyimpan lagi sebesar 3500 maka hasilnya menjadi 5500 
+<br> Dilanjut Ia mengambil 4000 status OK 
+<br> Berikutya ia mengambil uang sebesar 1600 dan status gagal dikarenakan sisa uang tadi 1500
+<br> Setelah itu ia menyimpan kembali sebesar 2000 dan saldo menjadi 3500
 
 Hasil run menampilkan : 
 <hr>
