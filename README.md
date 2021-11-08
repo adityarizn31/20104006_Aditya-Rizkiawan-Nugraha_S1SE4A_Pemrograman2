@@ -144,6 +144,9 @@ public class Nasabah {
 }
 ```
 
+**Penjelasan** : Pada kodingan nasabah ini kita membuat terlebih dahulu variabel dengan tipe data String yaitu String namaAwal & String namaAkhir dan membuat Objek Tabungan. Selanjutnya membuat Constructor berparameter String namaAwal & String namaAkhir lalu di dalamnya terdapat pemanggil this pada tiap masing - masing variabel. Lalu dilanjut dengan method get pada namaAwal, namaAkhir dan Tabungan dan terakhir mengisikan Set tabungan dengan objek yang sebelumnya dideklarasikan yaitu tabungan. Get pada kodingan ini berfungsi untuk mengembalikan nilai yang dimana ketika dilakukan running akan tampil sedangkan pada Set digunakan untuk mengisi nilai pada variabel. 
+
+
 <br>[Kodingan Tabungan]()
 
 ```java
@@ -178,6 +181,8 @@ public class Tabungan {
     }
 }
 ```
+
+**Penjelasan** : Pada program berikutnya dideklarasikan variabel saldo dengan tipe data int lalu membuat Constructor dengan berparameter int saldo dan di dalamnya terdapat this saldo. Selanjutya melakukan method getSaldo dengan fungsi mengembalikan nilai saldo, lalu ada method void set saldo dengan fungsi mengisi nilai pada variabel saldo, method simpanUang dengan variabel int saldo di dalamnya terdapat saldo dijumlahkan dengan jumlah. Dan yang terakhir terdapat method boolean ambilUang dengan variabel int jumlah yang didalamnya terdapat proses jika jumlah < saldo maka saldo akan mengisi variabel saldo dan melakukan pengurangan dengan jumlah jika bener akan menampilkan true namun jika salah akan false.
 
 <br> [Kodingan TesLatihan]()
 
