@@ -27,7 +27,8 @@ this.gaji = gaji;
 ### PRAKTIKUM PERCOBAAN
 <hr>
 Soal : <br>
-1. Memakai kata kunci this pada overloading constructor <br> 
+
+**1. Memakai kata kunci this pada overloading constructor <br>**
 
 <br>[Kodingan Mahasiswa](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Percobaan/Mahasiswa.java)
 <hr>
@@ -62,7 +63,8 @@ public class Mahasiswa {
 
 
 <br>
-2. Menggunakan Package dan Import
+
+**2. Menggunakan Package dan Import**
 
 <br>[Kodingan Kelas](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Percobaan/Sekolah/Kelas.java)
 <hr>
@@ -116,7 +118,8 @@ public class Mahasiswa {
 
 ### PRAKTIKUM LATIHAN
 <hr>
-3. Mengimplementasikan UML Class Diagram dalam program untuk package Perbankan
+
+**3. Mengimplementasikan UML Class Diagram dalam program untuk package Perbankan**
 
 <br> Transformasikan class diagram di atas ke dalam bentuk program !! Tulislah listing program tersebut sebagai pengetesan
 
