@@ -232,6 +232,8 @@ public class TesLatihan {
 }
 ```
 
+**Penjelasan** : Pada program main ini semua method dipanggil agar bisa dilakukan running lalu dibuatkan objek nasabah dengan nama Nasabah setelah itu menampilkan nama nasabah menggunakan method Get dilanjutkan dengan mengisi variabel saldo sebesar 5000 di dalam variabel tmp selanjutnya menyimpan saldo sebesar 3000 dan ditampilkan lalu mengambil uang sebesar 6000. Setelah itu terdapat percabangan yang dimana jika status benar maka akan menampilkan OK namun jika salah akan menampilkan GAGAL. 
+
 Hasil run menampilkan : 
 <hr>
 
@@ -245,9 +247,11 @@ Jumlah uang yang diambil : 1600 gagal <br>
 Jumlah uang yang disimpan : 2000 <br>
 Saldo sekarang = 3500 <br>
 
+![Hasil Run](https://user-images.githubusercontent.com/92510019/140699321-b49da93a-8063-4696-90df-152e71187815.PNG)
+
 <hr>
 
 
 
 ### KESIMPULAN
-Kesimpulan pada praktikum mengenai Package, Kata kunci this dan import class ini mahasiswa harus mengetahui terlebih dahulu
+Kesimpulan pada praktikum mengenai Package, Kata kunci this dan import class ini mahasiswa harus mengetahui terlebih dahulu bagaimana penggunaan dan pemanggilannya. Selain itu harus mengerti alur pemrograman dari saldo yang dimana harus ditambah atau dikurangi antara saldo dan jumlah. Harus paham juga penggunaan kata kunci this dan import class dan tempat penyimpanan di dalam package - package. 
