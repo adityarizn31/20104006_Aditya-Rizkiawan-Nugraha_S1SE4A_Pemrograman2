@@ -7,8 +7,18 @@ Sarana/ cara pengelompokan dan pengorganisasian kelas - kelas dan interface yang
 
 * Import Class <br>
 Merupakan kata kunci untuk melibatkan class class lain yang terhimpun di dalam package yang akan di import. This hanya bisa digunakan dalam class tidak di dalam main, Jika dilakukan di dalam main maka akan terjadi error. 
+
 * This <br>
 This merupakan referensi ke objek yang sedang aktif dan digunakan untuk di dalam method untuk mewakili nama kelas bersangkutan. 
+<br> Contoh nya : <br>
+
+```java
+Karyawan(String kode, String nama, Double gaji) {
+this.id = kode;
+this.nama = nama;
+this.gaji = gaji;
+}
+```
 
 
 
@@ -110,7 +120,7 @@ public class Mahasiswa {
 
 <br> Transformasikan class diagram di atas ke dalam bentuk program !! Tulislah listing program tersebut sebagai pengetesan
 
-[Kodingan Mahasiswa]()<br>
+[Kodingan Nasabah](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Latihan/Perbankan/Nasabah.java)<br>
 
 ```java
 package Modul5.Latihan.Perbankan;
@@ -147,7 +157,7 @@ public class Nasabah {
 **Penjelasan** : Pada kodingan nasabah ini kita membuat terlebih dahulu variabel dengan tipe data String yaitu String namaAwal & String namaAkhir dan membuat Objek Tabungan. Selanjutnya membuat Constructor berparameter String namaAwal & String namaAkhir lalu di dalamnya terdapat pemanggil this pada tiap masing - masing variabel. Lalu dilanjut dengan method get pada namaAwal, namaAkhir dan Tabungan dan terakhir mengisikan Set tabungan dengan objek yang sebelumnya dideklarasikan yaitu tabungan. Get pada kodingan ini berfungsi untuk mengembalikan nilai yang dimana ketika dilakukan running akan tampil sedangkan pada Set digunakan untuk mengisi nilai pada variabel. 
 
 
-<br>[Kodingan Tabungan]()
+<br>[Kodingan Tabungan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Latihan/Perbankan/Tabungan.java)
 
 ```java
 package Modul5.Latihan.Perbankan;
@@ -184,7 +194,7 @@ public class Tabungan {
 
 **Penjelasan** : Pada program berikutnya dideklarasikan variabel saldo dengan tipe data int lalu membuat Constructor dengan berparameter int saldo dan di dalamnya terdapat this saldo. Selanjutya melakukan method getSaldo dengan fungsi mengembalikan nilai saldo, lalu ada method void set saldo dengan fungsi mengisi nilai pada variabel saldo, method simpanUang dengan variabel int saldo di dalamnya terdapat saldo dijumlahkan dengan jumlah. Dan yang terakhir terdapat method boolean ambilUang dengan variabel int jumlah yang didalamnya terdapat proses jika jumlah < saldo maka saldo akan mengisi variabel saldo dan melakukan pengurangan dengan jumlah jika bener akan menampilkan true namun jika salah akan false.
 
-<br> [Kodingan TesLatihan]()
+<br> [Kodingan TesLatihan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul5/Latihan/TesLatihan.java)
 
 ```java
 package Modul5.Latihan;
