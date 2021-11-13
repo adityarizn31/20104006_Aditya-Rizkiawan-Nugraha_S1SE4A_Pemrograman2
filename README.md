@@ -6,7 +6,7 @@ Mata kuliah Pemrograman2
 Inheritance merupakan suatu cara pembuatan class baru dengan menggunakan kembali class yang sudah didefinisikan sebelumnya dengan menambahkan atribut dan method baru. Sehingga sedemikian class baru tersebut mewakili variabel dan fungsi yang dimiliki oleh class sebelumnya. Atau suatu konsep penting dalam pemrograman yang menciptakan kelas baru dengan mewarisi karakteristik kelas yang telah ada ditambah dengan karakterisitik unik kelas baru itu. 
 
 * Deklarasi Inheritance dan Single Inheritance <br>
-
+Deklarasi yang digunakan pada inheritance yaitu menambahkan kata kunci extends setelah deklarasi nama class kemudia diikuti dengan nama parent classnya. Kata kunci extends tersebut memberitahu kompiler Java akan ada perluasan pada class contohnya *public class B extends A() {};*. Sedangkan Single inheritance merupakan pewarisan yang jumlah kelas dasarnya (basic class/superclass) tunggal tapi kelas turunan nya bisa lebih dari satu. 
 
 * Penerapan Inheritance <br>
  
