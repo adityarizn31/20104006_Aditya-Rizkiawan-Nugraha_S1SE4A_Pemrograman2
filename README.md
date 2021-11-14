@@ -47,7 +47,11 @@ Penggunaan this dan super:
 
 ```java
 
-protected int p, l; // variabel this p di kelas ini
+package Modul6.Percobaan;
+
+public class Persegi extends Bentuk{
+
+        protected int p, l; // variabel this p di kelas ini
 
         //Merupakan luas
         public void setSuperP(int p) { // variabel this p di kelas bentuk
@@ -71,7 +75,8 @@ protected int p, l; // variabel this p di kelas ini
         public void getLuas(){
             System.out.println("Luas super = "+ (super.l * super.p));
             System.out.println("Luas  = "+ (this.l * this.p));
-        } 
+        }
+}
 
 ```
 
@@ -94,7 +99,9 @@ public class PersegiTest {
 
 <hr>
 
-**Penjelasan** : 
+**Penjelasan** : Terdapat class parent Bentuk yang di dalamnya terdapat variabel protected int p dan l. Lalu pada class Persegi yang merupakan anak dari class bentuk terdapat dua method yang digunakan untuk mengisi variabel p dan l pada class induk dengan menggunakan super yang berfungsi memanggil konstruktor atau memanggil variabel yang ada pada class induk pada super class sedangkan dua method lainnya digunakan untuk mengisi variabel yang ada pada class tersebut atau class Perseginya sebagai menyatakan variabel pada class tersebut dan satu method lainnya digunakan untuk menampilkan luas yang di dalamnya terdapat proses aritmetika yaitu perkalian. 
+
+<hr>
 
 
 <br>
@@ -163,7 +170,7 @@ Kelas Induk :
 
 <hr>
 
-**Penjelasan** : 
+**Penjelasan** : Pada class person yang merupakan superclass di dalamnya terdapat variabel protected String name dan String address lalu terdapat dua konstruktor yang memiliki parameter dan tidak memiliki, Pada konstruktor yang tidak berparamater digunakan menampilkan variabel yang sebelumnya menyatakan variabel pada konstruktor yang berparameter. Lalu terdapat method yang digunakan untuk menampilkan isi dari variabel dan mengisi di variabel. Sedangkan pada class anak hanya menampilkan argumen. Lalu pada mainnya terdapat object siswa dari class anak yaitu students
 
 <br>
 
@@ -211,6 +218,9 @@ public class B extends A {
 
 ```
 
+<hr>
+
+**Penjelasan** : Pada kelas A terdapat variabel int x dan y yang memiliki modifier protected selanjut terdapat tiga method yang digunakan untuk mengisi variabel dengan menggunakan kata kunci this yang merupakan menyatakan variabel dari class itu lalu method getNilai yang mereturn nilai atau mengembalikan nilai. Sedangkan pada class B yang merupakan anak terdapat variabel int z dan dua method yaitu 1. mengisi nilai pada variabel z dan menjumlahkan nilai yang ada pada variabel kelas induk dan kelas anak. 
 <hr>
 4. Konstruktor tidak diwariskan 
 
