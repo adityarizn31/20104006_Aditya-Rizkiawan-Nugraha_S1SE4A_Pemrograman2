@@ -35,63 +35,189 @@ Karena konstruktor kelas A berarti membuat objek dari kelas A dan konstruktor ke
 ### PRAKTIKUM PERCOBAAN
 <hr>
 Soal : <br>
-1. Mengakses anggota suatu class <br> 
+1. Menggunakan kata kunci super<br> 
 
-[Codingan1](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/Rumah.java) <br>
-[Main1](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/Test.java)
+[Bentuk]() <br> 
+[Persegi]() <br>
+[Persegi Test]()
 
-Hasil run menampilkan :  
+
+Penggunaan this dan super:  
 <hr>
 
-Alamat saya di jalan Lapang Sari, Majalengka <br>
+```java
+
+protected int p, l; // variabel this p di kelas ini
+
+        //Merupakan luas
+        public void setSuperP(int p) { // variabel this p di kelas bentuk
+            super.p = p;
+        }
+
+        public void setSuperL(int l) { // variabel this p di kelas bentuk
+            super.l = l;
+        }
+
+        // Merupakan Luas yang di isi
+        public void setL(int l) {
+            this.l = l;
+        } // variabel this p di kelas ini
+
+        public void setP(int p) {
+            this.p = p;
+        } // variabel this p di kelas ini
+
+        // Method yang nantinya akan dipanggil di kodingan main
+        public void getLuas(){
+            System.out.println("Luas super = "+ (super.l * super.p));
+            System.out.println("Luas  = "+ (this.l * this.p));
+        } 
+
+```
+
+```java
+
+public class PersegiTest {
+    public static void main(String[] args){
+        Persegi kotak = new Persegi();
+        //Mengisikan pada variabel super P, L dan Set P,L
+            kotak.setSuperP(5);
+            kotak.setSuperL(10);
+            kotak.setP(3);
+            kotak.setL(13);
+
+        // Method dari kodingan extends bentuk dipanggil disini
+            kotak.getLuas();
+        }
+        
+```
 
 <hr>
 
-Pada kodingan yang pertama ini class Rumah membuat objek dengan variabel r selanjutnya r memanggil method setAlamat rumah yang dimana memiliki parameter(String x) dan alamat_rumah = x. Statement pertama pada class main setelah membuat objek digunakan untuk mengisikan "Alamat saya di jalan Lapangsari" dan dipanggi lagi di bagian sout.
+**Penjelasan** : 
+
 
 <br>
-2. Mengimplementasikan UML Class diagram untuk class tabungan
+2. Mendefinisikan superclass dan subclass
 
-[Codingan2](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/Tabungan.java) <br>
-[Main2](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Percobaan/TestTabungan.java)
+[Person]() <br>
+[Student]() <br>
+[Inherit Demo]()
 
-Hasil run menampilkan : 
+Kelas Induk : 
 <hr>
  
-SALDO AWAL TABUNGAN ANDA = 5000 <br>
-JUMLAH UANG YANG DIAMBIL = 1500 <br>
-SALDO TABUNGAN ANDA YANG SEKARANG ADALAH = 3500 <br>
+ ```java
  
+ public class Person {
+
+    protected String name;
+    protected String address;
+
+    public Person() {
+        System.out.println("INSIDE PERSON : CONSTRUCTOR ");
+        name = "";
+        address = "";
+    }
+
+    public Person(String name, String address){
+        this.name = name;
+        this.address = address;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    
+ ```
+ 
+ kelas anak : <br>
+ 
+ ```java
+ 
+ ublic class Students extends Person{
+
+    public Students() {
+//        super("Ini nama", "Ini alamat");
+//        super();
+//        super.name = "Ini nama";
+
+        System.out.println("INSIDE STUDENT : CONSTRUCTOR");
+
+    }
+    
+```
+
 <hr>
-Pada kodingan kedua ini class tabungan dibuat terlebih dahulu dengan memiliki atribut int saldo selanjutnya terdapat method void ambilUang dengan paramater(int saldo) selanjutnya pada kodingan main class tabungan membuat objek dengan variabel t yang dimana memliki isi 5000 
-selanjutnya ditampilkan terlebih dahulu jumlah uang awal yaitu 5000 lalu variabel t memanggil method ambilUang pada class Tabungan, uang yang diambil sebesar 1500 dan terakhir ditampilkan lagi hasil dari uang yang telah dikurangi yaitu 3500.
+
+**Penjelasan** : 
+
 <br>
-<br>
-<hr>
-
-### PRAKTIKUM LATIHAN
-<hr>
-3. Mengimplementasikan UML Class Diagram untuk class tabungan || Transformasikan class ke dalam Program
-
-[Codingan3](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Latihan/Tabungan.java)<br>
-[Main3](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul3/Latihan/TestTabungann.java)
-
-Hasil run menampilkan : 
-<hr>
-
-SALDO AWAL : 10000 <br>
-JUMLAH UANG YANG DISIMPAN : 8000 <br>
-JUMLAH UANG YANG DIAMBIL : 7000 OK <br>
-JUMLAH UANG YANG DISIMPAN : 1000 <br>
-JUMLAH UANG YANG DIAMBIL :  10000 OK <br>
-JUMLAH UANG YANG DIAMBIL : 2500 GAGAL <br>
-JUMLAH UANG YANG DISIMPAN : 2000 <br>
-SALDO SEKARANG = 4000 <br>
 
 <hr>
+3. Mengontrol Pengaksesan
 
-Pada kodingan ketiga merupakan tugas yang harus dibuat agar bisa di running, di dalamnya terdapat atribut int saldo lalu terdapat method getSaldo digunakan untuk kembalian sesuai dengan tipe data yang akan diambil sedangkan set digunakan untuk mengisi data ke dalam atribut. 
-Lalu terdapat method simpanUang(int jumlah) digunakan untuk menjumlahkan saldo.Selanjutnya di dalam kodingan main terdapat Class Tabungan yang memiliki objek tabungan. dilanjutkan dengan menampilkan saldo awal yang dipanggil melalui method getSaldo lalu terdapat memanggil method simpangUang dan ambilUang. Ada juga percabangan dengan ekspresi boolean jika benar maka akan menampilkan OK namun jika salah maka Gagal. Di dalam method simpanUang dilakukan proses = saldo + jumlah; dan di ambilUang dilakukan proses jika jumlah lebih kecil dari this.getsaldo maka setSaldo akan mengisi getSaldo - jumlah. 
+[A]()<br>
+[B]()
+
+Kelas Induk : 
+<hr>
+
+```java
+public class A {
+    protected int x;
+    protected int y;
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+    public void getNilai() {
+        System.out.println("Nilai x : " + x + " Nilai y : " + y);
+    }
+```
+
+Kelas anak : 
+
+``` java
+
+public class B extends A {
+    private int z;
+
+    public void setZ(int z) {
+        this.z = z;
+    }
+
+
+    public void getJumlah() {
+        System.out.println("Jumlah = " + (x + y + z));
+    }
+
+```
+
+<hr>
+4. Konstruktor tidak diwariskan 
+
+[Parent]() <br>
+[Child]() <br>
+
+
 
 ### KESIMPULAN
 Kesimpulan pada praktikum kedua ini mahasiswa harus jeli dengan method yang dibuat, variabel yang digunakna dan alur / algoritma program yang berjalan.Selain itu harus paham juga dan mengerti detai - detail dari alur pemrograman. Di dalam PBO kode dan data diatur menggunakan method sehingga dapat bekerja untuk menghasilkan program yang digunakan menyelesaikan masalah selain itu memodelkan sistem menjadi suatu objek yang dimana menjadi solusi dalam penyelesaian. 
