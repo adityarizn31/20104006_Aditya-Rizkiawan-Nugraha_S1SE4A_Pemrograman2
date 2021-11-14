@@ -9,18 +9,26 @@ Inheritance merupakan suatu cara pembuatan class baru dengan menggunakan kembali
 Deklarasi yang digunakan pada inheritance yaitu menambahkan kata kunci extends setelah deklarasi nama class kemudia diikuti dengan nama parent classnya. Kata kunci extends tersebut memberitahu kompiler Java akan ada perluasan pada class contohnya *public class B extends A() {};*. Sedangkan Single inheritance merupakan pewarisan yang jumlah kelas dasarnya (basic class/superclass) tunggal tapi kelas turunan nya bisa lebih dari satu. 
 
 * Penerapan Inheritance <br>
- 
+ Penerapan inheritance ini ada beberapa yaitu : 
+ 1. Tempatkan operasi - operasi dan field - field yang sama di superkelas
+ 2. Jangan menggunakan protected fields
+ 3. Gunakan pewarisan untuk memodelkan hubungan "is-a"
+ 4. Jangan gunakan pewarisan kecuali semua metode yang diturunkan adalah berarti
+ 5. Gunakan *Polymorphism* , jangan menggunakan informasi mengenai tipe
 
 * Pengaksesan member dari parent class <br>
+Pengaksesan memberi dari parent class itu menggunakan kata kunci extends yang dimana itu mengartikan anak dari kelas induk misalnya *public class B extends A() {};* yang berarti class B merupakan anak dari class A (A merupakan kelas induk). 
 
 
 * Kontrol Pengaksesan <br>
+Maksud dari kontrol pengaksesan yaitu suatu parent class boleh atau tidak mewariskan sebagian data dan methodnya kepada subclassnya. Sejauh mana method dan data tersebut dapat diwariskan ke kelas lain. 
 
 
 * Kata kunci super <br>
 Kata kunci ini digunakan untuk memanggil konstruktor dari super class atau memanggil variabel yang mengacu pada super class. Misalnya super(x, y, z) berarti atribut x, y, z diambil dari atribut class induk.
 
 * Konstraktor tidak diwariskan  <br>
+Karena konstruktor kelas A berarti membuat objek dari kelas A dan konstruktor kelas B berarti membuat objek dari kelas B yang dimana tidak bisa dilakukan konstruktor kelas A dengan objek dari B. Terkecuali menggunakan super didalalamnya yang membuat implementasi A inside B
 
 <hr>
 
