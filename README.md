@@ -37,9 +37,9 @@ Karena konstruktor kelas A berarti membuat objek dari kelas A dan konstruktor ke
 Soal : <br>
 1. Menggunakan kata kunci super<br> 
 
-[Bentuk]() <br> 
-[Persegi]() <br>
-[Persegi Test]()
+[Bentuk](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/Bentuk.java) <br> 
+[Persegi](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/Persegi.java) <br>
+[Persegi Test](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/PersegiTest.java)
 
 
 Penggunaan this dan super:  
@@ -107,9 +107,9 @@ public class PersegiTest {
 <br>
 2. Mendefinisikan superclass dan subclass
 
-[Person]() <br>
-[Student]() <br>
-[Inherit Demo]()
+[Person](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/Person.java) <br>
+[Student](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/Students.java) <br>
+[Inherit Demo](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/InheritDemo.java)
 
 Kelas Induk : 
 <hr>
@@ -177,8 +177,9 @@ Kelas Induk :
 <hr>
 3. Mengontrol Pengaksesan
 
-[A]()<br>
-[B]()
+[A](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/A.java) <br> 
+[B](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/B.java) <br>
+[Inherit Test](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/InheritanceTest.java)
 
 Kelas Induk : 
 <hr>
@@ -220,12 +221,13 @@ public class B extends A {
 
 <hr>
 
-**Penjelasan** : Pada kelas A terdapat variabel int x dan y yang memiliki modifier protected selanjut terdapat tiga method yang digunakan untuk mengisi variabel dengan menggunakan kata kunci this yang merupakan menyatakan variabel dari class itu lalu method getNilai yang mereturn nilai atau mengembalikan nilai. Sedangkan pada class B yang merupakan anak terdapat variabel int z dan dua method yaitu 1. mengisi nilai pada variabel z dan menjumlahkan nilai yang ada pada variabel kelas induk dan kelas anak. 
+**Penjelasan** : Pada kelas A terdapat variabel int x dan y yang memiliki modifier protected selanjut terdapat tiga method yang digunakan untuk mengisi variabel dengan menggunakan kata kunci this yang merupakan menyatakan variabel dari class itu lalu method getNilai yang mereturn nilai atau mengembalikan nilai. Sedangkan pada class B yang merupakan anak terdapat variabel int z dan dua method yaitu 1. mengisi nilai pada variabel z dan menjumlahkan nilai yang ada pada variabel kelas induk dan kelas anak. Pada class main nya diberikan objek dari kelas A dengna nama ortu dan B dengan nama anak lalu menampilkan Super class yang didalamnya sudah berisi nilai masing - masing variabel dengan menggunakan kata set begitu pun sama dengan sub class yang dimana diisikan nilai dan ditampilkan dengan menggunakan method get.
+
 <hr>
 4. Konstruktor tidak diwariskan 
 
-[Parent]() <br>
-[Child]() <br>
+[Parent](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/Parent.java) <br>
+[Child](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul6/Percobaan/Child.java) <br>
 
 
 Kodingan induk : 
@@ -261,4 +263,4 @@ public class Child extends Parent{
 
 
 ### KESIMPULAN
-Kesimpulan pada praktikum kedua ini mahasiswa harus jeli dengan method yang dibuat, variabel yang digunakna dan alur / algoritma program yang berjalan.Selain itu harus paham juga dan mengerti detai - detail dari alur pemrograman. Di dalam PBO kode dan data diatur menggunakan method sehingga dapat bekerja untuk menghasilkan program yang digunakan menyelesaikan masalah selain itu memodelkan sistem menjadi suatu objek yang dimana menjadi solusi dalam penyelesaian. 
+Kesimpulan pada praktikum ini Kita harus mengetahui terlebih dahulu modifier apa yang akan digunakan dan apakah akan menggunakan konstruktur yang berparameter atau tidak. Lalu harus memahami mana yang class untuk parent class, class anak dan class main serta penggunakan kata kunci this dan super. Mengetahui bagaimana menampilkan nilai yang sudah dinyatakan pada variabel dengan this. 
