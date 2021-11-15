@@ -228,6 +228,37 @@ public class B extends A {
 [Child]() <br>
 
 
+Kodingan induk : 
+
+```java
+
+package Modul6.Percobaan;
+
+public class Parent {
+}
+```
+
+
+Kodingan anak : 
+
+```java
+
+public class Child extends Parent{
+    int x;
+
+    public Child() {
+        super();
+        x = 5;
+
+    }
+```
+
+<hr>
+
+**Penjelasan** : Child merupakan kelas anak dari parent yang dimana child memiliki variabel int x dan juga mendeklarasikan kata kunci this lalu menginisialisasi variabel x bernilai 5. 
+
+<hr>
+
 
 ### KESIMPULAN
 Kesimpulan pada praktikum kedua ini mahasiswa harus jeli dengan method yang dibuat, variabel yang digunakna dan alur / algoritma program yang berjalan.Selain itu harus paham juga dan mengerti detai - detail dari alur pemrograman. Di dalam PBO kode dan data diatur menggunakan method sehingga dapat bekerja untuk menghasilkan program yang digunakan menyelesaikan masalah selain itu memodelkan sistem menjadi suatu objek yang dimana menjadi solusi dalam penyelesaian. 
