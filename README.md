@@ -263,4 +263,4 @@ public class Child extends Parent{
 
 
 ### KESIMPULAN
-Kesimpulan pada praktikum ini Kita harus mengetahui terlebih dahulu modifier apa yang akan digunakan dan apakah akan menggunakan konstruktur yang berparameter atau tidak. Lalu harus memahami mana yang class untuk parent class, class anak dan class main serta penggunakan kata kunci this dan super. Mengetahui bagaimana menampilkan nilai yang sudah dinyatakan pada variabel dengan this. 
+Kesimpulan pada praktikum ini Kita harus mengetahui terlebih dahulu modifier apa yang akan digunakan dan apakah akan menggunakan konstruktur yang berparameter atau tidak. Lalu harus memahami mana yang class untuk parent class, class anak dan class main serta penggunakan kata kunci this dan super. Mengetahui bagaimana menampilkan nilai yang sudah dinyatakan pada variabel dengan this. Dan mengetahui apa saja yang harus dilakukan get & set serta method arimetika yang akan digunakan.
