@@ -9,6 +9,7 @@ Merupakan penulisan beberapa fungsi dua atau lebih yang memiliki nama yang sama.
 Suatu cara untuk mendefinisikan ulang method yang ada pada class induk apabila class anak menginginkan adanya informasi yang lain. Overriding dilakukan dengan cara menulis ulang method yang ada pada class induk dengan syarat bahwa nama dan parameter fungsi tersebut harus sama (tidak boleh diubah). 
 
 * Aturan Overriding Method <br>
+List argumen pada Overrding dan Overriden harus sama termasuk tipe data, dan urutannya selain itu jika Overriden *default* maka overrdiing harus default, protected dan public.
 
 <hr>
 
