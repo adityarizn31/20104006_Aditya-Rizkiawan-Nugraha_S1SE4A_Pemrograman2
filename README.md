@@ -139,6 +139,7 @@ hasil Run Menampilkan :
 
 [Burung](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Burung.java) <br>
 [Penguin](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Penguin.java) <br>
+[Overriding](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Overiding.java) 
 
 Class Burung :
 
