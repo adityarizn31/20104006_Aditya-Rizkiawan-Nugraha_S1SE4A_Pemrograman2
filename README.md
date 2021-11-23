@@ -19,10 +19,10 @@ Soal : <br>
 
 **1. Melakukan OVerloading pada method <br>**
 
-[A]() <br>
-[B]() <br>
-[C]() <br>
-[Overload]() <br>
+[A](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/A.java) <br>
+[B](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/B.java) <br>
+[C](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/C.java) <br>
+[Overload](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Overload.java) <br>
 
 ```java
 void myOverload(A a){
@@ -56,7 +56,7 @@ Hasil run menampilkan :
 
 **2. Melakukan Overloading pada method**
 
-[Overload1]() <br>
+[Overload1](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Overload1.java) <br>
 
 ```java
 void myMethod(Short s) {
@@ -93,8 +93,8 @@ Hasil run menampilkan :
 
 **3. Melakukan Overloading Method**
 
-[Mahasiswa]() <br>
-[Main]() 
+[Mahasiswa](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Mahasiswa.java) <br>
+[Main](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Main.java) 
 
 Mahasiswa : 
 
@@ -137,9 +137,8 @@ hasil Run Menampilkan :
 
 **4. Overriding pada Method**
 
-[Burung]() <br>
-[Penguin]() <br>
-[Main]()
+[Burung](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Burung.java) <br>
+[Penguin](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Percobaan/Penguin.java) <br>
 
 Class Burung :
 
@@ -183,7 +182,6 @@ Hasil Run Menampilkan :
 
 ![image](https://user-images.githubusercontent.com/92510019/142975632-71a15c99-a9cf-4398-af5e-e58d01d9f5b7.png)
 
-
 <hr>
 
 **Penjelasan** : Pada program ini menggunakan konsep overrding yang dimana memiliki method dengan keduanya tidak memiliki parameter sehingga disebut Overriding. Pada class burung memiliki satu method yaitu terbang di dalamnya terdapat argumen SOUT Terbang lalu pada class penguin yang merupakan turunan dari class burung memiliki satu method juga yaitu terbang dan menampilkan SOUT Tidak bisa terbang. Selanjutnya pada class main membuat objek dari kelas burunga dan penguin dan terakhir dilakukan memanggil pada tiap tiap masing method. 
@@ -195,10 +193,10 @@ Hasil Run Menampilkan :
 
 **5. Melatih Pemahaman menggunakan Overriding**
 
-[Dosen]() <br> 
-[Dekan]() <br>
-[Rektor]() <br>
-[Main]() 
+[Dosen : Parent Class](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Latihan/Dosen.java) <br> 
+[Dekan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Latihan/Dekan.java) <br>
+[Rektor](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Latihan/Rektor.java) <br>
+[Main](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul7/Latihan/Main.java) 
 
 Class Dosen : 
 ```java
@@ -301,4 +299,4 @@ Hasil run menampilkan :
 
 
 ### KESIMPULAN
-Kesimpulannya Overroding yaitu menulis ulang method yang ada di class induk dengan syarat **nama dan parameter fungsinya harus sama** atau meskipun tidak memiliki parameter juga harus sama sama kosong lalu untuk memanggil nya dimain dibuat terlebih dahulu objek dari kelas induk atau kelas anak yang nantinya akan dilakukan memanggil kelas pada tiap - tiap method. Contohnya pada **Praktikum Pemahaman** terdapat method tampil pada tiap tiap masing class. Sedangkan pada overloading Method pada tiap tiap class bernama sama namun memiliki parameter yang berbeda. Mahasiswa harus mengerti terlebih dahulu pengertiannya dilanjut dengan ciri - ciri dari setiap konsep.
+Kesimpulannya Overroding yaitu menulis ulang method yang ada di class induk dengan syarat **nama dan parameter fungsinya harus sama** atau meskipun tidak memiliki parameter juga harus sama sama kosong lalu untuk memanggil nya dimain dibuat terlebih dahulu objek dari kelas induk atau kelas anak yang nantinya akan dilakukan memanggil kelas pada tiap - tiap method. Contohnya pada **Praktikum Pemahaman** terdapat method tampil pada tiap tiap masing class. Sedangkan pada overloading Method pada tiap tiap class bernama sama namun memiliki parameter yang berbeda. Mahasiswa harus mengerti terlebih dahulu pengertiannya dilanjut dengan ciri - ciri dari setiap konse dan juga memahami mana yang parent class dan sub class.
