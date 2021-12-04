@@ -12,3 +12,5 @@
 5. [Modul 6 : Konsep Inheritance, Pengertian Inheritance, Deklarasi, Penerapan, Pengaksesan](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/tree/modul6)
 6. [Modul 7 : Overloading, Overriding dan Aturan Overriden Method](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/tree/modul7)
 7. [Modul 8 : ]()
+8. [Modul 9 : ]()
+9. [Modul 10 : ]()
