@@ -10,13 +10,15 @@ Menyatakan suatu nama yang merujuk pada beberapa fungsi yang berbeda. Pada polim
 4. Method acces attribute pada subclass tidak boleh lebih terbatas dari pada yang ada pada super class
 
 * Virtual Method Invocation <br>
+VMI ini bisa terjadi jika polimorphisme dan overriding  pada saat objek yang sudah dibuat tersebut memanggil overriden method pada parent class. Kompiler java akan melakukan invocation (pemanggilan) terhadap overriding method pada subclass dimana yang seharusnya dipanggil adalah overriden method. 
 
 
 * Polymorphic Arguments <br>
+Merupakan tipe suatu parameter yang menerima suatu nilai yang bertipe subclassnya. 
 
 
 * Penyataan Instance Of
 Instance OF merupakan operator yang dapat digunakan untuk mengoperasikan dua buah tipe data reference selain itu digunakan dalam proses sebelum dilakukan downcast dari subtype ke supertype supaya tidak terjadi ClassCastException. 
 
 * Casting Object
-Mengubah tipe deklarasi class pada suatu objek
+Mengubah tipe deklarasi class pada suatu objek atau memperbolehkan untuk membuat objek dari subclass untuk diberikan ke variabel acuan tipe superclass. 
