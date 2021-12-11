@@ -1,4 +1,4 @@
-## 20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2
+# 20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2
 Mata kuliah Pemrograman2
 
 ### DASAR TEORI 
@@ -22,3 +22,51 @@ Instance OF merupakan operator yang dapat digunakan untuk mengoperasikan dua bua
 
 * Casting Object
 Mengubah tipe deklarasi class pada suatu objek atau memperbolehkan untuk membuat objek dari subclass untuk diberikan ke variabel acuan tipe superclass. 
+
+<hr>
+
+### PRAKTIKUM PERCOBAAN
+
+<hr>
+
+Soal : <br>
+
+1. Virtual Method Invocation <br>
+Class Parent
+```java
+package Modul8.Percobaan;
+
+public class Parent {
+    int x = 5;
+    public void info() {
+        System.out.println(" INI CLASS PARENT ");
+    }
+}
+```
+
+Class Child
+```java
+public class Parent {
+    int x = 5;
+    public void info() {
+        System.out.println(" INI CLASS PARENT ");
+    }
+}
+
+```
+
+Class Test
+```java
+package Modul8.Percobaan;
+
+public class Test {
+
+    public static void main(String[] args) {
+        Parent kelas = new Child();
+        System.out.println("Nilai x : " + kelas.x);
+        kelas.info();
+    }
+}
+```
+**Penjelasan** = Terdapat dua class bernama parent dan child yang dimana dua kelas tersebut menerapkan konsep Inheritance karena terdapat penggunaan extends pada class child terhadap parent. Selanjutnya pada class Parent terdapat variabel x yang di inisialisasi = 5 lalu terdapat method void info yang menampilkan " Ini Class Parent " sedangkan pada kelas child terdapat variabel x juga yang di inisialisasi 10 dan ada method info menampilkan " Ini Class Child ".
+
