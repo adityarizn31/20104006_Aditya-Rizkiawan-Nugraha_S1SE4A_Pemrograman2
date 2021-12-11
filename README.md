@@ -46,12 +46,14 @@ public class Parent {
 
 Class Child
 ```java
-public class Parent {
-    int x = 5;
+public class Child extends Parent{
+    int x = 10;
+
     public void info() {
-        System.out.println(" INI CLASS PARENT ");
+        System.out.println(" INI CHILD ");
     }
 }
+
 
 ```
 
