@@ -154,3 +154,9 @@ public class Tes2 {
 **Penjelasan :**
 
 <hr>
+
+<hr>
+
+### PRAKTIKUM LATIHAN
+
+<hr>
