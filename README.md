@@ -70,5 +70,13 @@ public class Test {
     }
 }
 ```
+<hr>
+
 **Penjelasan** = Terdapat dua class bernama parent dan child yang dimana dua kelas tersebut menerapkan konsep Inheritance karena terdapat penggunaan extends pada class child terhadap parent. Selanjutnya pada class Parent terdapat variabel x yang di inisialisasi = 5 lalu terdapat method void info yang menampilkan " Ini Class Parent " sedangkan pada kelas child terdapat variabel x juga yang di inisialisasi 10 dan ada method info menampilkan " Ini Class Child ".
 
+<hr>
+
+2. Polymorphics Arguments
+
+Class Pegawai : 
+```java
