@@ -160,3 +160,117 @@ public class Tes2 {
 ### PRAKTIKUM LATIHAN
 
 <hr>
+
+1. Class Pegawai
+```java
+package Modul8.Latihan.VIM;
+
+public class Pegawai {
+
+    private String name;
+    private String address;
+    private int number;
+    private double salary;
+
+    public Pegawai(String name, String address, int i, int number) {
+        System.out.println("MENYUSUN PEGAWAI");
+
+        this.name = name;
+        this.address = address;
+        this.number = number;
+    }
+
+    public Pegawai(String name, String address, int number) {
+    }
+
+    public void MailCheck() {
+        System.out.println("MEMERIKSA SURAT UNTUK " + this.name + " " + this.address);
+        System.out.println("SURAT TERTUJU UNTUK " + getName() + " DENGAN GAJI " + number);
+    }
+
+    public String toString() {
+        return name + " " + address + " " + number;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String newAddres) {
+        address = newAddres;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+}
+```
+
+Class Gaji extends Pegawai
+```java
+package Modul8.Latihan.VIM;
+
+public class Gaji extends Pegawai{
+
+    private double salary; // Gaji Tahunan
+
+    public Gaji(String name, String address, int number, double salary ) {
+        super(name, address, number);
+        setSalary(salary);
+    }
+
+    public void MailCheck() {
+        System.out.println("MEMERIKSA KELAS GAJI DALAM SURAT");
+        System.out.println("SURAT TERTUJU UNTUK " + getName() + " DENGAN GAJI " + salary);
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double newSalary) {
+        if (newSalary >=0.0) {
+            salary = newSalary;
+        }
+    }
+
+    public double computePay() {
+        System.out.println("MENGHITUNG PEMBAYARAN GAJI UNTUK " + getName());
+        return salary/52;
+    }
+}
+```
+
+Class Demo
+```java
+package Modul8.Latihan.VIM;
+
+public class Demo {
+
+    public static void main(String[] args) {
+
+        Gaji s = new Gaji("Aditya", "Majalengka", 1, 800000);
+
+        Pegawai e = new Pegawai("Fadli", "Kadipaten", 2, 7000000);
+
+        System.out.println("Memanggil mailcheck berdasarkan referensi Gaji--");
+
+        s.MailCheck();
+
+        System.out.println("\nMemanggil mailcheck berdasarkan referensi Pegawai--");
+
+        e.MailCheck();
+
+
+    }
+}
+```
+
