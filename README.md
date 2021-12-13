@@ -80,3 +80,77 @@ public class Test {
 
 Class Pegawai : 
 ```java
+package Modul8.Latihan;
+
+public class Pegawai {
+}
+```
+Class Manajer Extends Pegawai
+```java
+package Modul8.Latihan;
+
+public class Manajer extends Pegawai{
+}
+```
+Class Tes
+```java
+package Modul8.Latihan;
+
+public class Tes {
+    public static void Proses (Pegawai peg) {
+
+    }
+
+    public static void main(String[] args) {
+        Manajer man = new Manajer();
+        Proses(man);
+    }
+}
+```
+
+<hr>
+
+**Penjelasan :**
+
+<hr>
+
+3. Pernyataan InstanceOff 
+
+Class Kurir
+```java
+package Modul8.Latihan;
+
+public class Kurir extends Pegawai{
+
+}
+```
+
+Class Tes2
+```java
+package Modul8.Latihan;
+
+public class Tes2 {
+    public static void Proses(Pegawai peg) {
+        if (peg instanceof Manajer) {
+            System.out.println("Melakukan Tugas - tugas Manajer");
+        } else if (peg instanceof Kurir) {
+            System.out.println("Melakukan tugas tugas kurir");
+        } else {
+            System.out.println("Melakukan tugas lainnya");
+        }
+    }
+
+    public static void main(String[] args) {
+        Manajer man = new Manajer();
+        Kurir kur = new Kurir();
+        Proses(man);
+        Proses(kur);
+    }
+}
+```
+
+<hr>
+
+**Penjelasan :**
+
+<hr>
