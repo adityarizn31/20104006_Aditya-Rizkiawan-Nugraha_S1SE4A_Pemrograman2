@@ -296,5 +296,5 @@ Hasil Running :
 
 <hr>
 
-**Kesimpulan**
+**Kesimpulan : **
 Langkah pertama harus mendeklarasikan terlebih dahulu variabel yang akan digunakan dan jika terdapat konstraktor dengan menggunakan parameter variabel maka akan menggunakan this untuk mereferensikan variabel kelasnya lalu jika ingin menggunakan di kelas extends maka harus menggunakan super dengan mereferensikan variabel dari kelas induk. Sedangkan pada penggunaan InstanceOff harus menggunakan parameter dan variabel yang ada pada kodingan main lalu dilakukan membuat objek dari tiap masing - masing kelas dan method. Dan pada percobaan kelas main terdapat objek dengan menggunakan parent namun dibagian new menggunakan kelas extends.
