@@ -110,7 +110,7 @@ public class Tes {
 
 <hr>
 
-**Penjelasan :**
+**Penjelasan :** Pada kodingan main hanya terdapat Objek dari kelas Manajer yaitu man dan memanggil method proses di kelas Tes. 
 
 <hr>
 
@@ -151,7 +151,7 @@ public class Tes2 {
 
 <hr>
 
-**Penjelasan :**
+**Penjelasan :** Pada kodingan main terdapat method proses dengan parameter dari kelas Pegawai yaitu peg lalu didalamnya terdapat percabangan yang berkondisikan instance off berupa perbandingan suatu objek yang instansiasi nya dari class atau tidak. Hasil perbandingan nya akan menampilkan boolean true dan false.
 
 <hr>
 
@@ -281,9 +281,9 @@ Hasil Running :
 
 <hr>
 
-**Penjelasan :**
+**Penjelasan :** Pada kelas pegawai mendeklarasikan terlebih dahulu variabel yang akan digunakan yaitu String name, String address, int number dan double salary. Selanjutnya terdapat konstraktor Pegawai dengan parameter variabel yang telah di deklarasikan dan terdapat this yang digunakan untuk referensi kelas itu sendiri. Lalu terdapat method mailcheck yang dimana akan menampilkan gaji dan surat kepada variabel nama yang diisi di kelas main. Selanjutnya terdapat get dan set name, address dan salary. Sedangkan pada kelasd gaji yang merupakan extends dari Pegawai terdapat variabel double salary dan konstraktor Gaji dengan parameter nama, address int number dan salary. Lalu diaakukan pemanggilan untuk mereferensikan diri dari kelas induk dan menggunakan this pada variabel salary. Setelah itu terdapat method mailcheck yang dimana akan menampilkan kelas gaji dan surat dengan jumlah gaji yang ada pada main. Selanjutnya ada get dan set salary. Pada set salary terdapat percabangan dan pada kelas demo menginisialisasi kan tiap tiap variabel ke dalam masing masing kelas dengan menggunakan objek s untuk kelas gaji dan e kelas pegawai selanjutnya memanggil method method yang pada masing " kelas.
 
 <hr>
 
-**Kesimpulan :**
+**Kesimpulan **
 
