@@ -161,7 +161,7 @@ public class Tes2 {
 
 <hr>
 
-1. Class Pegawai
+4. Class Pegawai
 ```java
 package Modul8.Latihan.VIM;
 
@@ -172,20 +172,18 @@ public class Pegawai {
     private int number;
     private double salary;
 
-    public Pegawai(String name, String address, int i, int number) {
-        System.out.println("MENYUSUN PEGAWAI");
 
+    public Pegawai(String name, String address,  int number, double salary) {
         this.name = name;
         this.address = address;
         this.number = number;
+        this.salary = salary;
     }
 
-    public Pegawai(String name, String address, int number) {
-    }
 
     public void MailCheck() {
-        System.out.println("MEMERIKSA SURAT UNTUK " + this.name + " " + this.address);
-        System.out.println("SURAT TERTUJU UNTUK " + getName() + " DENGAN GAJI " + number);
+        System.out.println("Memeriksa kelas gaji dalam surat ");
+        System.out.println("Surat tertuju untuk " + this.name + " dengan gaji " + salary);
     }
 
     public String toString() {
@@ -212,6 +210,7 @@ public class Pegawai {
         return salary;
     }
 }
+
 ```
 
 Class Gaji extends Pegawai
@@ -223,13 +222,14 @@ public class Gaji extends Pegawai{
     private double salary; // Gaji Tahunan
 
     public Gaji(String name, String address, int number, double salary ) {
-        super(name, address, number);
-        setSalary(salary);
+        super(name, address, number, salary);
+        this.salary = salary;
+        System.out.println("Menyusun Pegawai");
     }
 
     public void MailCheck() {
-        System.out.println("MEMERIKSA KELAS GAJI DALAM SURAT");
-        System.out.println("SURAT TERTUJU UNTUK " + getName() + " DENGAN GAJI " + salary);
+        System.out.println("Memeriksa Kelas gaji dalam Surat ");
+        System.out.println("Surat tertuju untuk " + getName() + " dengan gaji " + salary);
     }
 
     public double getSalary() {
@@ -243,10 +243,11 @@ public class Gaji extends Pegawai{
     }
 
     public double computePay() {
-        System.out.println("MENGHITUNG PEMBAYARAN GAJI UNTUK " + getName());
+        System.out.println("Menghitung pembayaran gaji untuk " + getName());
         return salary/52;
     }
 }
+
 ```
 
 Class Demo
@@ -257,11 +258,11 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        Gaji s = new Gaji("Aditya", "Majalengka", 1, 800000);
+        Gaji s = new Gaji("Aditya", "Majalengka", 1, 80000);
 
-        Pegawai e = new Pegawai("Fadli", "Kadipaten", 2, 7000000);
+        Pegawai e = new Pegawai("Fadli", "Kadipaten", 2, 25000);
 
-        System.out.println("Memanggil mailcheck berdasarkan referensi Gaji--");
+        System.out.println("\nMemanggil mailcheck berdasarkan referensi Gaji--");
 
         s.MailCheck();
 
@@ -272,5 +273,9 @@ public class Demo {
 
     }
 }
+
 ```
+
+Hasil Running : 
+![image](https://user-images.githubusercontent.com/92510019/145916288-c610ee9a-e15a-4526-9b08-c8fbba5b2504.png)
 
