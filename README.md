@@ -32,7 +32,9 @@ Mengubah tipe deklarasi class pada suatu objek atau memperbolehkan untuk membuat
 Soal : <br>
 
 1. Virtual Method Invocation <br>
-Class Parent
+
+[Class Parent](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Percobaan/Parent.java)
+
 ```java
 package Modul8.Percobaan;
 
@@ -44,7 +46,7 @@ public class Parent {
 }
 ```
 
-Class Child
+[Class Child](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Percobaan/Child.java)
 ```java
 public class Child extends Parent{
     int x = 10;
@@ -57,7 +59,7 @@ public class Child extends Parent{
 
 ```
 
-Class Test
+[Class Test](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Percobaan/Test.java)
 ```java
 package Modul8.Percobaan;
 
@@ -78,7 +80,8 @@ public class Test {
 
 2. Polymorphics Arguments
 
-Class Pegawai : 
+[Class Pegawai](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/Pegawai.java)
+
 ```java
 package Modul8.Latihan;
 
@@ -92,7 +95,8 @@ package Modul8.Latihan;
 public class Manajer extends Pegawai{
 }
 ```
-Class Tes
+[Class Tes](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/Tes.java)
+
 ```java
 package Modul8.Latihan;
 
@@ -116,7 +120,8 @@ public class Tes {
 
 3. Pernyataan InstanceOff 
 
-Class Kurir
+[Class Kurir](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/Kurir.java)
+
 ```java
 package Modul8.Latihan;
 
@@ -125,7 +130,8 @@ public class Kurir extends Pegawai{
 }
 ```
 
-Class Tes2
+[Class Tes2](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/Tes2.java)
+
 ```java
 package Modul8.Latihan;
 
@@ -161,7 +167,8 @@ public class Tes2 {
 
 <hr>
 
-4. Class Pegawai
+4. [Class Pegawai](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/VIM/Pegawai.java)
+
 ```java
 package Modul8.Latihan.VIM;
 
@@ -213,7 +220,8 @@ public class Pegawai {
 
 ```
 
-Class Gaji extends Pegawai
+[Class Gaji extends Pegawai](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/VIM/Gaji.java)
+
 ```java
 package Modul8.Latihan.VIM;
 
@@ -250,7 +258,8 @@ public class Gaji extends Pegawai{
 
 ```
 
-Class Demo
+[Class Demo](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/VIM/Demo.java)
+
 ```java
 package Modul8.Latihan.VIM;
 
