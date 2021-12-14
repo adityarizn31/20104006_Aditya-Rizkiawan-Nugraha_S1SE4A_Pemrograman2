@@ -167,7 +167,9 @@ public class Tes2 {
 
 <hr>
 
-4. [Class Pegawai](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/VIM/Pegawai.java)
+4. Latihan
+
+[Class Pegawai](https://github.com/adityarizn31/20104006_Aditya-Rizkiawan-Nugraha_S1SE4A_Pemrograman2/blob/modul8/Latihan/VIM/Pegawai.java)
 
 ```java
 package Modul8.Latihan.VIM;
