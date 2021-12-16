@@ -3,7 +3,7 @@
 ### Mata kuliah Praktikum Pemrograman2
 
 * Exception Handling <br>
-Exception adalah kondisi pengucualian yang merupakan sesuai diluar biasanya. Exception ini kebanyakan digunakan sebagai sarana melaporkan kondisi - kondisi kesalahan. <br>
+Exception adalah kondisi pengecualian yang merupakan sesuai diluar biasanya. Exception ini kebanyakan digunakan sebagai sarana melaporkan kondisi - kondisi kesalahan. <br>
 Java menangani exception melibatkan lima kata kunci : 
 1. Try
 2. Catch
@@ -24,3 +24,6 @@ try {
       //dilakukan disini
 }
 ```
+
+* Catch <br>
+Jika metode dimaksudkan untuk menangkap Exception yang dilempar metode yang dipanggil maka pemanggilan harus ditempatkan di blok try. 
