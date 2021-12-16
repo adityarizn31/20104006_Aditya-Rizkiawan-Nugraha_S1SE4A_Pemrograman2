@@ -27,3 +27,75 @@ try {
 
 * Catch <br>
 Jika metode dimaksudkan untuk menangkap Exception yang dilempar metode yang dipanggil maka pemanggilan harus ditempatkan di blok try. 
+
+<hr>
+
+### PRAKTIKUM PERCOBAAN
+
+<hr>
+
+1. Percobaan2 || Penggunaan Blok Try-Catch
+
+Class main : <br>
+```java
+package Modul9.Percobaan;
+
+public class Percobaan2 {
+    public static void main(String[] args) {
+        int a[] = new int[5];
+
+        try {
+            a[5] = 100;
+        } catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Indeks array melebih batas");
+        }
+        System.out.println("Setelah blok try-catch");
+    }
+}
+```
+<br>
+
+2. Percobaan2 || Penggunaan Finally
+
+Class main : <br>
+```java
+package Modul9.Percobaan;
+
+public class Percobaan_finally {
+    public static void main(String[] args) {
+        int a[] = new int[5];
+
+        try {
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Terjadi exception karena indeks melebih batas");
+        } finally {
+            System.out.println("Selalu dijalankan");
+        }
+        System.out.println("Setelah blok try-catch");
+    }
+}
+```
+
+<br>
+
+3. Percobaan3
+
+Class main : <br>
+```java
+package Modul9.Percobaan;
+
+public class Percobaan3 {
+    public static void main(String[] args) {
+        int bil = 10;
+
+        try {
+            System.out.println(bil / 0);
+        } catch (ArithmeticException e) {
+            System.out.println("Tidak boleh membagi bilangan dengan 0");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Terdapat Error");
+        }
+    }
+}
+```
