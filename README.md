@@ -76,10 +76,35 @@ public class Percobaan_finally {
     }
 }
 ```
+<br>
+
+3. Percobaan3 || Penggunaan Throw dan Throws
+
+Class method1 dan main: <br>
+```java
+package Modul9.Percobaan;
+
+import java.io.FileNotFoundException;
+import java.security.PublicKey;
+
+public class Percobaan_throws {
+
+    public static void method1() throws FileNotFoundException {
+        throw new FileNotFoundException("File tidak ada");
+    }
+    public static void main(String[] args) {
+        try {
+            method1();
+        } catch (FileNotFoundException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+}
+```
 
 <br>
 
-3. Percobaan3
+4. Percobaan3
 
 Class main : <br>
 ```java
