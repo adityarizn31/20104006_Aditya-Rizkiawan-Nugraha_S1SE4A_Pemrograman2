@@ -30,7 +30,7 @@ Jika metode dimaksudkan untuk menangkap Exception yang dilempar metode yang dipa
 
 <hr>
 
-### PRAKTIKUM PERCOBAAN
+### PRAKTIKUM PERCOBAAN TIPE TIPE EXCEPTION
 
 <hr>
 
