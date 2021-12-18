@@ -104,7 +104,21 @@ public class Percobaan_throws {
 
 <br>
 
-4. Percobaan3
+4. Percobaan 1
+
+Class main : <br>
+```java
+
+```
+
+6. Percobaan 2
+
+Class main : <br>
+```java
+
+```
+
+8. Percobaan 3
 
 Class main : <br>
 ```java
