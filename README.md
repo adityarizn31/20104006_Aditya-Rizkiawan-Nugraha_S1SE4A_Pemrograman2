@@ -26,7 +26,36 @@ try {
 ```
 
 * Catch <br>
-Jika metode dimaksudkan untuk menangkap Exception yang dilempar metode yang dipanggil maka pemanggilan harus ditempatkan di blok try. 
+Jika metode dimaksudkan untuk menangkap Exception yang dilempar metode yang dipanggil maka pemanggilan harus ditempatkan di blok try. <br>
+Jika Exception dilempar, Exception itu ditangani blok catch. Blok - blok catch menangani tipe - tipe exception berbeda. 
+
+Contoh <br>
+```java
+try {
+      //Pemanggilan metode yang menghasilkan exception
+      //Dilakukan disini
+} catch (Exception e) {
+      //Penanganan terhadap exception
+      //Dilakukan disini
+}
+```
+
+* Finally <br>
+Java menyediakan klausa finally untuk menandai blok itu selalu dieksekusi. Pada situasi yang biasa / normal (tidak ada catch /exception yang dilempar) blok finally akan dieksekusi segera setelah blok try sedangkan jika terdapat catch maka exception dilempar, blok finally dieksekusi setelah blok catch yang menangani exception dilakukan. 
+
+Contoh <br>
+
+```java
+try {
+      //Pemanggilan metode yang menghasilkan exception
+      //Dilakukan disini
+} catch (Exception e) {
+      //Penanganan terhadap exception
+      //Dilakukan disini
+} finally {
+      //Blok kode yang
+      //Selalu harus dieksekusi
+```
 
 <hr>
 
