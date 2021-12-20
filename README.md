@@ -78,7 +78,7 @@ public class Percobaan_finally {
 ```
 <br>
 
-3. Percobaan3 || Penggunaan Throw dan Throws
+3. Percobaan2 || Penggunaan Throw dan Throws
 
 Class method1 dan main: <br>
 ```java
@@ -108,17 +108,78 @@ public class Percobaan_throws {
 
 Class main : <br>
 ```java
+package Modul9.Percobaan;
+
+public class Percobaan1 {
+    public static void main(String[] args) {
+        int a[] = new int[5];
+
+        try {
+            a[5] = 100;
+        } catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Indeks Array melebihi batas");
+        }
+    }
+}
 
 ```
 
-6. Percobaan 2
+6. Percobaan 2 & Percobaan2.2
 
 Class main : <br>
 ```java
+package Modul9.Percobaan;
+
+public class Percobaan2 {
+    public static void main(String[] args) {
+        int bil = 10;
+        System.out.println(bil / 0);
+
+
+    }
+}
 
 ```
 
+Class main : <br>
+```java
+package Modul9.Percobaan;
+
+public class Percobaan22 {
+    public static void main(String[] args) {
+        int bil = 10;
+
+        try {
+            System.out.println(bil / 0);
+        } catch (ArithmeticException A) {
+            System.out.println("Bilangan tidak boleh dibagian dengan angka 0");
+        }
+    }
+}
+```
+
 8. Percobaan 3
+
+Class main : <br>
+```java
+package Modul9.Percobaan;
+
+public class Percobaan3 {
+    public static void main(String[] args) {
+        int bil = 10;
+
+        try {
+            System.out.println(bil / 0);
+        } catch (ArithmeticException e) {
+            System.out.println("Tidak boleh membagi bilangan dengan 0");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Terdapat Error");
+        }
+    }
+}
+```
+
+9. Percobaan 4
 
 Class main : <br>
 ```java
