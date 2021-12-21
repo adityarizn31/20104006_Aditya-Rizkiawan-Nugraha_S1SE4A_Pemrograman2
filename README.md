@@ -298,6 +298,9 @@ public class Melempar_CheckedException {
     }
 }
 ```
+**Penjelasan :** Pada percobaan throws ini terdapat method dengan nama method1 di dalamnya terdapat throws FileNotFoundException lalu throw ini digunakan dalam satu method yang menghasilkan kesalahan sehigga perlu ditangkap errornya. Dan pada main terdapat blok try dan catch, pemanggilan method yang ada disebelumnya. Selanjutnya menampilkan pada bagian catch dengan penggunaan ex.getMessage.
+
+<br>
 
 11. Percobaan melempar UncheckedException
 
@@ -325,6 +328,9 @@ public class Melempar_UncheckedException {
     }
 }
 ```
+**Penjelasan :** Pada class terdapat penggunaan Scanner dengan variabel asupkeun(masukan) lalu dilanjutkan dengan membuat objek new Scanner. Selanjutnya terdapat blok try-catch dengan perintah memasukan angka dengan mendeksripsikan int nilai. Setelah itu dilanjut dengan percabangan jika nilai > 10 maka dilakukan pelemparan exception dengan tampilan angka kurang dari atau = 10 setelah itu catch akan menangkapnya angka lebih dari 10 dan selesai.
+
+<br>
 
 12. Percobaan menangkap Exception
 
