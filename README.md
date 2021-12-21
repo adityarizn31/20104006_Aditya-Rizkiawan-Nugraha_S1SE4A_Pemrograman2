@@ -345,6 +345,6 @@ public class Inheritance_MenangkapException {
 
 <hr>
 
-### Kesimpulan 
+### KESIMPULAN 
 
 <hr>
