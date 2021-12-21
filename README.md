@@ -266,7 +266,7 @@ public class Percobaan4 {
     }
 }
 ```
-**Penjelasan :** Terdapat array dengan menginisialisasi batasnya yaitu 5 lalu pada blok try-catch ditampilkan acces element dengan a[3] dan catch terda
+**Penjelasan :** Terdapat array dengan menginisialisasi batasnya yaitu 5 lalu pada blok try-catch ditampilkan acces element dengan a[3] dan catch terdapat ArrayIndexOutOfBounds jika array melebihi batas maka akan ditampilkan. Dilanjut dengan finally terdapat array a[0] = 6 dan menampilkan First element dengan array a[0]
 
 <hr>
 
