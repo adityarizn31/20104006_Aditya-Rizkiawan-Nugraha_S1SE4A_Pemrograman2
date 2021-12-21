@@ -58,7 +58,7 @@ try {
 ```
 
 * Throw & Throws <br>
-Kata kunci throw digunakan di program untuk melempar (throw) exception secara eksplisit. Bentuk umum kalimat adalah : <br>
+Kata kunci **throw** digunakan di program untuk melempar (throw) exception secara eksplisit. Bentuk umum kalimat adalah : <br>
 ```java
 throw ThrowableInstance;
 ```
@@ -67,7 +67,9 @@ Instan throw ini harus merupakan objek dengan tipe throwable adapun cara mempero
 1. Menggunakan parameter clausa Catch
 2. Menciptakan salah satu dengan menggunakan operator new();
 
-Eksekusi progam akan dihentikan segera setelah kalimat throw, kalimat setelah throw tidak dieksekusi. 
+Eksekusi progam akan dihentikan segera setelah kalimat throw, kalimat setelah throw tidak dieksekusi. <br>
+
+Kata kunci **Throws** Jika metode menghasilkan exception metode harus menspesifikasikan perilaku ini sehingga pemanggil metode itu dapat dipaksa agar menghadapi exception. Memberikan klausa throws di deklarasi metode. 
 
 <hr>
 
