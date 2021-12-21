@@ -96,6 +96,8 @@ public class Percobaan2 {
     }
 }
 ```
+**Penjelasan :** Pada percobaan blok try catch ini terdapat array a dengan batas array sampai dengan angka lima selanjutnya terdapat blok try dengan menginisialisasikan a[5] = 100 Karena sebelumnya telah di isi dengan angka lima maka nilai a pada blok try tersebut menampilkan Indeks array melebihi batas tetapi jika kurang dari 5 maka akan menampilkan Setelah blok try catch Lalu penggunaan ArrayIndexOutOfBondsException digunakan untuk indeks array diluar batas.
+
 <br>
 
 2. Percobaan2 || Penggunaan Finally
@@ -119,6 +121,8 @@ public class Percobaan_finally {
     }
 }
 ```
+**Penjelasan :** Pada percobaan blok try catch ini terdapat array a dengan batas array sampai dengan angka lima selanjutnya terdapat blok try dengan menginisialisasikan a[5] = 100 Karena sebelumnya telah di isi dengan angka lima maka nilai a pada blok try tersebut menampilkan Indeks array melebihi batas tetapi jika kurang dari 5 maka akan menampilkan Setelah blok try catch Lalu penggunaan ArrayIndexOutOfBondsException digunakan untuk indeks array diluar batas. Setelah catch terdapat finally bertujuan untuk menunjukan bahwa block program tersebut akan selalu dieksekusi meskipun adalanya kesalahan yang muncul atau pun tidak ada.
+
 <br>
 
 3. Percobaan2 || Penggunaan Throw dan Throws
@@ -144,6 +148,7 @@ public class Percobaan_throws {
     }
 }
 ```
+**Penjelasan :** Pada percobaan throws ini terdapat method dengan nama method1 di dalamnya terdapat throws *FileNotFoundException* lalu throw ini digunakan dalam satu method yang menghasilkan kesalahan sehigga perlu ditangkap errornya. Dan pada main terdapat blok try dan catch, pemanggilan method yang ada disebelumnya. Selanjutnya menampilkan pada bagian catch dengan penggunaan ex.getMessage.
 
 <br>
 
@@ -172,8 +177,9 @@ public class Percobaan1 {
 }
 
 ```
+**Penjelasan :** Pada percobaan blok try catch ini terdapat array a dengan batas array sampai dengan angka lima selanjutnya terdapat blok try dengan menginisialisasikan a[5] = 100 Karena sebelumnya telah di isi dengan angka lima maka nilai a pada blok try tersebut menampilkan Indeks array melebihi batas tetapi jika kurang dari 5 maka akan menampilkan Setelah blok try catch Lalu penggunaan ArrayIndexOutOfBondsException digunakan untuk indeks array diluar batas.
 
-6. Percobaan 2 & Percobaan2.2
+5. Percobaan 2 & Percobaan2.2
 
 Class main : <br>
 ```java
@@ -206,8 +212,14 @@ public class Percobaan22 {
     }
 }
 ```
+**Penjelasan :** Terdapat dua class yang pertama tidak menggunakan blok try-catch sedangkan yang kedua menggunakan blok try-catch. Pada bagian pertama menampilkan error
+```java <br>
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at Modul9.Percobaan.Percobaan2.main(Percobaan2.java:6)
+```
+Sedangkan yang kedua pada bagian try terdapat proses pembagian variabel dengan angka 0 dan di bagian catch menampilkan "Bilangan tidak boleh dibagi dengan angka0" yang terdapat pada bagian catch.
 
-8. Percobaan 3
+6. Percobaan 3
 
 Class main : <br>
 ```java
@@ -227,8 +239,11 @@ public class Percobaan3 {
     }
 }
 ```
+**Penjelasan :** Pada bagian try terdapat proses pembagian variabel dengan angka 0 dan di bagian catch menampilkan "Bilangan tidak boleh dibagi dengan angka0" yang terdapat pada bagian catch. Program ini terdapat dua catch tetapi yang terakhir tidak berfungsi dikarenakan variabelnya tidak menggunakan array. Apabila menggunakan array maka akan ditampilkan ArrayIndexOutOfBounds
 
-9. Percobaan 4
+<br>
+
+7. Percobaan 4
 
 Class main : <br>
 ```java
@@ -236,18 +251,22 @@ package Modul9.Percobaan;
 
 public class Percobaan4 {
     public static void main(String[] args) {
-        int bil = 10;
+        int a[] = new int[5];
 
         try {
-            System.out.println(bil / 0);
-        } catch (ArithmeticException e) {
-            System.out.println("Tidak boleh membagi bilangan dengan 0");
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Terdapat Error");
+            System.out.println("Acces element three " + a[3]);
+        } catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Exception thrown :" + e);
+        }
+        finally {
+            a[0] = 6;
+            System.out.println("First element value : " + a[0]);
+            System.out.println("The Finally statement is esceuted ");
         }
     }
 }
 ```
+**Penjelasan :** Terdapat array dengan menginisialisasi batasnya yaitu 5 lalu pada blok try-catch ditampilkan acces element dengan a[3] dan catch terda
 
 <hr>
 
