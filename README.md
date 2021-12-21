@@ -220,7 +220,7 @@ Class main : <br>
 ```java
 package Modul9.Percobaan;
 
-public class Percobaan3 {
+public class Percobaan4 {
     public static void main(String[] args) {
         int bil = 10;
 
