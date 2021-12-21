@@ -367,3 +367,5 @@ public class Inheritance_MenangkapException {
 ### KESIMPULAN 
 
 <hr>
+ 
+Exception handling merupakan temuan akhir penanganan kesalahan. Penggunaan nya dilakukan dalam penanganan kesalahan. Exception sering disebut dengan kondisi abnormal yang muncul di saat jalan atau merupakan kesalahan waktu jalan. Dalam java terdapat fungsi - fungsi level rendah dapat melakukan deteksi kesalahan sementara fungsi level lebih tinggi menentukan apa yang perlu dilakukan terhadapnya. Exception menyediakan sarana mengkomunikasikan informasi kesalahan lewat rantai metode sampai satu metode mengatasinya.
