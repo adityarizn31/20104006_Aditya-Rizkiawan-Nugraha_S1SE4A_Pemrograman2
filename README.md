@@ -342,3 +342,9 @@ public class Inheritance_MenangkapException {
     }
 }
 ```
+
+<hr>
+
+### Kesimpulan 
+
+<hr>
