@@ -234,3 +234,55 @@ public class Percobaan4 {
     }
 }
 ```
+
+10. Percobaan melempar CheckedException
+
+Class main : <br>
+
+```java
+package Modul9.Latihan;
+
+import java.io.FileNotFoundException;
+
+public class Melempar_CheckedException {
+
+    public static void method1() throws FileNotFoundException {
+        throw new FileNotFoundException("File tidak ada");
+    }
+
+    public static void main(String[] args) {
+        try {
+            method1();
+        } catch (FileNotFoundException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+}
+```
+
+11. Percobaan melempar UncheckedException
+
+Class main : <br>
+```java
+package Modul9.Latihan;
+
+import java.util.Scanner;
+
+public class Melempar_UncheckedException {
+    public static void main(String[] args) {
+        Scanner asupkeun = new Scanner(System.in);
+
+        try {
+            System.out.println("Masukan angka = ");
+            int nilai = asupkeun.nextInt();
+
+            if (nilai > 10) throw new Exception();
+            System.out.println("Angka kurang dari atau sama dengan 10");
+        } catch (Exception s) {
+            System.out.println("Angka lebih dari 10");
+            System.out.println("Selesai");
+
+        }
+    }
+}
+```
