@@ -255,7 +255,7 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
 ![image](https://user-images.githubusercontent.com/92510019/148225187-949e5e5a-61e5-4691-afe5-70a89083ba9f.png)
 
 **9. Penggunaan Overload Constructor** <br>
-![image](https://user-images.githubusercontent.com/92510019/148228333-dfc62e06-cf61-49c6-bac6-639dc2f7d8ac.png)
+![image](https://user-images.githubusercontent.com/92510019/148232652-7db597ac-492e-4119-af32-19cca9e47d8b.png)
 
 **10. Penggunaan Overload Method** <br>
 ![image](https://user-images.githubusercontent.com/92510019/148228888-b8cbff1d-449c-4e44-9308-2b2e0ad6d739.png)
@@ -264,10 +264,21 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
 **11. Penggunaan Try Catch** <br>
 ![image](https://user-images.githubusercontent.com/92510019/148229060-0128d306-ff16-4800-8d33-f6c74c5ba1a9.png)
 
+**12. Penggunaan Information Hidding** <br>
+![image](https://user-images.githubusercontent.com/92510019/148232915-a13ad26e-4b9b-45e7-ba49-da74bd302035.png)
+
+**13. Penggunaan Getter dan Setter** <br>
+![image](https://user-images.githubusercontent.com/92510019/148233013-055c7dce-0ab0-4358-bd92-7518bc1e0a29.png)
+
+**Analisa Program :** <br>
+Pada class Pegawai menggunakan information hidding yaitu String naam dan List penyewa lalu terdapat Overload Constructor Pegawai selanjutnya getter dan setter atribut information hidding. Setelah ituu terdapat method hapus penyewa dengan parameter penyewa dan penggunaan try - catch dengan proses perulangan int j = 0, j < dari list penyewa j akan di increment kan. Lalu terdapat method tambahpenyewa dan getpenyewa yang dimana dalam getpenyewa menggunakan try catch dan perulangan yang dimulai dari 0 jika i < lis penyewa maka i akan di increment kan. <br>
+Pada class pemilik yang merupakan extends dari class pegawai terdapat constructor berparameter yang didalamnya menggunakan kata kunci super dan this lalu terdapat method tambahPegawai dengan objek dari Pegawai, hapusPegawai, gettersetterPegawai, kembalikan model dan tampil pegawai. Pada class main menggunakan Scanner yang berfungsi menginputkan oleh user lalu terdapat pilihan switch case di dalamnya pendaftaran, login, pendaftaran pegawai dan exit. Pada menu pendaftaran ini user menginputkan nama umur alamat usernma dan password yang nantinya akan digunakan sebagai akun login. Lalu pada pendaftaran pegawai pun sama dengan menginputkan username dan password. Pada method Login pemilih terdapat switch case dengan beberapa plihan sesuai yang dibutuhkan. Di dalam method cek mobil terdapat proses pengecekan ada atau tidaknya mobil jika belum di inputkan oleh pegawai maka akan menampilkan belum ada mobil namun jika ada akan menampilkan mobil beserta jenis mobil. Selanjutnya pada method tambahmobil ini terdapat identitas mobil yang harus disikan. Lalu pada method hapus mobil digunakan untuk menghapus mobil
+
+
 <hr>
 
 ### KESIMPULAN
 
 <hr>
 
-Dengan menggunakan Intellij IDEA, dapat dihasilkan suatu program penyewaan mobil. Dengan adanya program tersebut dapat mempermudah customer dalam memilih dan menyewa mobil dengan model dan harga yang di inginkan.
+Dengan menggunakan Intellij IDEA, dapat dihasilkan suatu program penyewaan mobil. Dengan adanya program tersebut dapat mempermudah customer dalam memilih dan menyewa mobil dengan model dan harga yang di inginkan. Pada program sederhana mengenai Rental mobil ini melibatkan class Pegawai & Pemilik yang terdapat pada Package Controller, Class Main yang terdapat pada Package Main dan Class login, class Mobil dan Class Penyewa yang terdapat pada Package Model. <br>
