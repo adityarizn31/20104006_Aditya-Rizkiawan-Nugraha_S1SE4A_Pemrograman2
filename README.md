@@ -152,7 +152,7 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
 
 <hr>
 
-### Kerangka Program
+### KERANGKA PROGRAM
 
 <hr>
 
@@ -225,7 +225,13 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
 
 <hr>
 
-### Kesimpulan
+### PENERAPAN MATERI PBO
+
+<hr>
+
+<hr>
+
+### KESIMPULAN
 
 <hr>
 
