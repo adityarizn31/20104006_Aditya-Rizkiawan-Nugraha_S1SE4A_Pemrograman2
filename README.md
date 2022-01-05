@@ -229,6 +229,41 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
 
 <hr>
 
+**1. Penggunaan Method Void** <br>
+![image](https://user-images.githubusercontent.com/92510019/148222195-2551e156-0679-4dea-9ddd-baedc108c274.png)
+
+**2. Penggunaan Objek** <br>
+![image](https://user-images.githubusercontent.com/92510019/148222573-0037fa39-b635-41d1-9106-c9bad25c1d6e.png) <br>
+![image](https://user-images.githubusercontent.com/92510019/148222683-52182f85-c0ec-4d98-975f-7dfbc16fe2b4.png)
+
+**3. Penggunaan Atribut** <br>
+![image](https://user-images.githubusercontent.com/92510019/148222882-5a523653-c3ed-4315-b627-3aac777777cd.png)
+
+**4. Penggunaan Method Berparameter** <br>
+![image](https://user-images.githubusercontent.com/92510019/148223104-26de09d8-5243-4a0c-9209-c7a4aa162af7.png)
+
+**5. Penggunaan Constructor Berparameter** <br> 
+![image](https://user-images.githubusercontent.com/92510019/148223820-d49be2d5-364a-423f-ae77-90afa38a36a9.png)
+
+**6. Penggunaan Inheritance** <br>
+![image](https://user-images.githubusercontent.com/92510019/148223983-3f64ce6f-0990-497e-a4e5-2092963684fa.png)
+
+**7. Penggunaan kata kunci this** <br>
+![image](https://user-images.githubusercontent.com/92510019/148225079-14af876d-25b8-47e8-8c7d-3b9eb0d5a5aa.png)
+
+**8. Penggunaan kata Package dan Import** <br>
+![image](https://user-images.githubusercontent.com/92510019/148225187-949e5e5a-61e5-4691-afe5-70a89083ba9f.png)
+
+**9. Penggunaan Overload Constructor** <br>
+![image](https://user-images.githubusercontent.com/92510019/148228333-dfc62e06-cf61-49c6-bac6-639dc2f7d8ac.png)
+
+**10. Penggunaan Overload Method** <br>
+![image](https://user-images.githubusercontent.com/92510019/148228888-b8cbff1d-449c-4e44-9308-2b2e0ad6d739.png)
+![image](https://user-images.githubusercontent.com/92510019/148228939-3eed619f-2cf6-4996-8a77-8687eb2ef22f.png)
+
+**11. Penggunaan Try Catch** <br>
+![image](https://user-images.githubusercontent.com/92510019/148229060-0128d306-ff16-4800-8d33-f6c74c5ba1a9.png)
+
 <hr>
 
 ### KESIMPULAN
