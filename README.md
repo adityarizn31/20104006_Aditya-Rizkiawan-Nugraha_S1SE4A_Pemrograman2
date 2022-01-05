@@ -1,5 +1,14 @@
 # LAPORAN TUGAS BESAR PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK
-  
+
+<hr>
+
+### KELOMPOK <br>
+
+Aditya Rizkiawan Nugraha 20104006 <br>
+Daffa Rayhan Riadi       20104023 <br>
+Fauzan Fashihul Lisan    20104029 <br>
+Hastin Ajeng Shalma      20104030 <br>
+
 <hr>
 
 ### PENDAHULUAN
