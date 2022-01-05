@@ -1,7 +1,11 @@
 # LAPORAN TUGAS BESAR PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK
-  <hr>
+  
+<hr>
 
-## PENDAHULUAN
+### PENDAHULUAN
+
+<hr>
+
 **1.1 Latar Belakang** <br>
 
 Pada era modern seperti ini banyak masyarakat membutuhkan kendaraan untuk bepergian seperti kendaraan pribadi, kebanyakan kendaraan yang dibutuhkan dan diminati yaitu kendaraan roda empat. Dengan menggunakan kendaraan pribadi itu lebih leluasa dalam beraktivitas di bandingkan dengan menggunakan kendaraan umum. Oleh karena itu dengan menggunakan java kami mencoba membuat program yang nantinya dapat membantu kegiatan penyewaan kendaraan. <br>
@@ -11,7 +15,11 @@ Pada era modern seperti ini banyak masyarakat membutuhkan kendaraan untuk beperg
 Selain untuk memenuhi tugas matakuliah Praktikum Pemrograman Berbasis Objek dengan membuat sebuah program bertemakan "Penyewaan Kendaraan", program ini dibuat juga untuk membantu masyarakat mendapatkan kendaraan yang aman dan nyaman. Juga untuk membantu mengembangkan usaha penyewaan yang terkadang masih sulit untuk mencari yang terpercaya. Dan juga selain tujuan di atas tersebut ini juga bertujuan untuk memudahkan mahasiswa mengerti tentang java dengan mengimplementasikan ilmu yang di peroleh pada semester ini.
 <br><br>
 
-## DASAR TEORI
+<hr>
+
+### DASAR TEORI
+
+<hr>
 
 **2.1 Definisi** <br>
 
@@ -47,9 +55,10 @@ Sebuah IDE yang diekambangkan oleh Jetbrains. Intellij IDEA tersedia dalam dua v
 long, float, dan double.
 
 * Variable
-  Item yang digunakan data untuk menyimpan 
-pernyataan objek.
-<br>2.5 Pengenalan Pemrograman Berorientasi Objek
+  Item yang digunakan data untuk menyimpan pernyataan objek.
+  
+<br> **2.5 Pengenalan Pemrograman Berorientasi Objek** <br>
+
 * Pengenalan Pemrograman Berorientasi Objek
   Pemrograman Berorientasi Objek (Object Oriented Programming/OOP) merupakan pemrograman yang berorientasikan kepada objek, dimana semua data dan fungsi dibungkus dalam classclass atau object-object.
 
@@ -137,11 +146,16 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
   
 <br> **2.11 Exception** <br>
 
-* Exeption Handling
+* Exception Handling
   Exception adalah singkatan dari Exceptional Events. Exception merupakan kondisi abnormal yang terjadi saat runtime (program berjalan). Dalam java terdapat sebuah teknik untuk menangani kondisi yang tidak biasa saat menjalankan operasi normal dalam program yang dinamakan dengan exception handling. Dalam java segala seusatu merupakan objek maka exception juga termasuk dalam sebuah object yang menjelaskan tentang exception tersebut.
 <br><br>
 
-## Kerangka Program
+<hr>
+
+### Kerangka Program
+
+<hr>
+
 1. Mulai
 2. Pendaftaran
 3. Pendaftaran Pegawai
@@ -208,7 +222,11 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
    * Masukkan nama penyewa
 33. Menu 6 pada menu pegawai (Logout)
 <br><br>
-   <hr>
 
-## Kesimpulan
+<hr>
+
+### Kesimpulan
+
+<hr>
+
 Dengan menggunakan Intellij IDEA, dapat dihasilkan suatu program penyewaan mobil. Dengan adanya program tersebut dapat mempermudah customer dalam memilih dan menyewa mobil dengan model dan harga yang di inginkan.
