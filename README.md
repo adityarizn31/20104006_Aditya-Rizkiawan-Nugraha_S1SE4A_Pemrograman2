@@ -118,7 +118,7 @@ Suatu class yang mempunyai class turunan di namakan parents class atau base clas
 * Overriding
   Merupakan sebuah kondisi di mana method yang terdapat pada class utama (parent class) digunakan kembali pada sub class (class anak).
   
-<br **2.10 Polimorfisme** <br>
+<br> **2.10 Polimorfisme** <br>
 
 * Konsep Dasar Polimorfisme
   Polimorfisme dalam OOP adalah sebuah prinsip di mana class dapat memiliki banyak bentuk dengan method yang berbeda-beda meskipun namanya sama. Polimorfisme terjadi pada saat obyek bertipe parent class akan tetapi pemanggilan constructornya melalui subclass.
