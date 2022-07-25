@@ -13,7 +13,7 @@ public class Pegawai {
         this.nama = nama;
     }
 
-    public Pegawai(){
+    public Pegawai() {
 
     }
 

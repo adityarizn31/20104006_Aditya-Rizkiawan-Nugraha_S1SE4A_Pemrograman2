@@ -133,74 +133,74 @@ public class Main {
                 }
 
             }
-                if (username.equals(userlog) && password.equals(passlog) && role==1){
-                    afterLoginPemilik();
-                } else if (username.equals(userlog) && password.equals(passlog) && role==2) {
-                    afterLoginPegawai(nama);
-                } else if (username.equals(userlog) && password.equals(passlog) && role==3) {
-                    for (int i = 0; i < listPenyewa.size(); i++) {
-                        if (listPenyewa.get(i).getNama().equals(nama)){
-                            penyewa = listPenyewa.get(i);
-                            afterLoginPenyewa(penyewa);
+            if (username.equals(userlog) && password.equals(passlog) && role==1){
+                afterLoginPemilik();
+            } else if (username.equals(userlog) && password.equals(passlog) && role==2) {
+                afterLoginPegawai(nama);
+            } else if (username.equals(userlog) && password.equals(passlog) && role==3) {
+                for (int i = 0; i < listPenyewa.size(); i++) {
+                    if (listPenyewa.get(i).getNama().equals(nama)){
+                        penyewa = listPenyewa.get(i);
+                        afterLoginPenyewa(penyewa);
+                        break;
+                    }
+                }
+            } else {
+                System.out.println("Username dan password salah!");
+                System.out.print("\nKembali?(y/n)");
+                char kembali = inputStr.next().charAt(0);
+
+                if (kembali == 'y' || kembali == 'Y'){
+                    home();
+                }
+
+                clearScreen();
+
+                System.out.println();
+                System.out.println("\n||===== Login =====||");
+                System.out.print("Username = ");
+                userlog = inputStr.next();
+
+                System.out.print("Password = ");
+                passlog = inputStr.next();
+                try {
+                    for (int i = 0; i < listLogin.size(); i++) {
+                        if (listLogin.get(i).getUsername().equals(userlog) && listLogin.get(i).getPassword().equals(passlog)){
+                            username = listLogin.get(i).getUsername();
+                            password = listLogin.get(i).getPassword();
+                            role = listLogin.get(i).getRole();
+                            nama = listLogin.get(i).getNama();
                             break;
                         }
                     }
-                } else {
-                    System.out.println("Username dan password salah!");
-                    System.out.print("\nKembali?(y/n)");
-                    char kembali = inputStr.next().charAt(0);
-
-                    if (kembali == 'y' || kembali == 'Y'){
-                        home();
-                    }
-
-                    clearScreen();
-
-                    System.out.println();
-                    System.out.println("\n||===== Login =====||");
-                    System.out.print("Username = ");
-                    userlog = inputStr.next();
-
-                    System.out.print("Password = ");
-                    passlog = inputStr.next();
-                    try {
-                        for (int i = 0; i < listLogin.size(); i++) {
-                            if (listLogin.get(i).getUsername().equals(userlog) && listLogin.get(i).getPassword().equals(passlog)){
-                                username = listLogin.get(i).getUsername();
-                                password = listLogin.get(i).getPassword();
-                                role = listLogin.get(i).getRole();
-                                nama = listLogin.get(i).getNama();
+                    if (username.equals(userlog) && password.equals(passlog) && role==1){
+                        afterLoginPemilik();
+                    } else if (username.equals(userlog) && password.equals(passlog) && role==2) {
+                        afterLoginPegawai(nama);
+                    } else if (username.equals(userlog) && password.equals(passlog) && role==3) {
+                        for (int i = 0; i < listPenyewa.size(); i++) {
+                            if (listPenyewa.get(i).getNama().equals(nama)){
+                                penyewa = listPenyewa.get(i);
+                                afterLoginPenyewa(penyewa);
                                 break;
                             }
                         }
-                        if (username.equals(userlog) && password.equals(passlog) && role==1){
-                            afterLoginPemilik();
-                        } else if (username.equals(userlog) && password.equals(passlog) && role==2) {
-                            afterLoginPegawai(nama);
-                        } else if (username.equals(userlog) && password.equals(passlog) && role==3) {
-                            for (int i = 0; i < listPenyewa.size(); i++) {
-                                if (listPenyewa.get(i).getNama().equals(nama)){
-                                    penyewa = listPenyewa.get(i);
-                                    afterLoginPenyewa(penyewa);
-                                    break;
-                                }
-                            }
-                        } else {
-                            System.out.println("Username dan password salah!");
-                            System.out.print("\nKembali?(y/n)");
-                            kembali = inputStr.next().charAt(0);
+                    } else {
+                        System.out.println("Username dan password salah!");
+                        System.out.print("\nKembali?(y/n)");
+                        kembali = inputStr.next().charAt(0);
 
-                            if (kembali == 'y' || kembali == 'Y'){
-                                home();
-                            } else {
-                                login();
-                            }
+                        if (kembali == 'y' || kembali == 'Y'){
+                            home();
+                        } else {
+                            login();
                         }
-                    } catch (NullPointerException e) {
-                        System.out.println("Belum ada data login");
-                        home();
                     }
+                } catch (NullPointerException e) {
+                    System.out.println("Belum ada data login");
+                    home();
                 }
+            }
 
         } catch (NullPointerException e) {
             System.out.println("Belum ada data login");
@@ -440,7 +440,7 @@ public class Main {
                             ulangi = true;
                         } else {
                             ulangi = false;
-                            afterLoginPegawai(namaPegawai);
+                            afterLoginPemilik();
                         }
 
                     } else {
@@ -473,7 +473,7 @@ public class Main {
                             ulangi = true;
                         } else {
                             ulangi = false;
-                            afterLoginPegawai(namaPegawai);
+                            afterLoginPemilik();
                         }
 
                     } else {
@@ -526,7 +526,7 @@ public class Main {
                             ulangi = true;
                         } else {
                             ulangi = false;
-                            afterLoginPegawai(namaPegawai);
+                            afterLoginPemilik();
                         }
                     } else {
                         System.out.println("Gagal! tidak ada penyewa dengan nama "+nama);
@@ -555,7 +555,7 @@ public class Main {
                             ulangi = true;
                         } else {
                             ulangi = false;
-                            afterLoginPegawai(namaPegawai);
+                            afterLoginPemilik();
                         }
                     } else {
                         System.out.println("Gagal! tidak ada penyewa dengan nama "+nama);
